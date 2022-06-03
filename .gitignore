@@ -1,0 +1,6 @@
+# Project exclude paths
+/FileBoxClient/target/
+/FileBoxCommon/target/
+/FileBoxServer/target/
+/client_storage/
+/server_storage/

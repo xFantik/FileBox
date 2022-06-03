@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+    <Properties>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="File" fileName="logs/FileBoxServer.log"
+                     filePattern="logs/NetChatServer-%d{yyyy-MM-dd_HH-mm-ss}.log.zip">
+            <PatternLayout pattern="%-5p %d{yyyy-MM-dd HH:mm:ss} [#%t]- %m%n"/>
+            <Policies>
+                <!-- Переключение файла лога при достижении им размера 10Мб -->
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+        </RollingFile>
+
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p %d{dd.MM.yyyy HH:mm:ss:ms} [#%t]- %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+
+        <Logger name="ru.pb.netchatserver" level="info" additivity="false">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="STDOUT"/>
+        </Logger>
+    </Loggers>
+
+</Configuration>
