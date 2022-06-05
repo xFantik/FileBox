@@ -42,15 +42,15 @@ DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголо�
 DEBUG 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 ERROR 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-ERROR 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+ERROR 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 ERROR 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-ERROR 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+ERROR 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 ERROR 2022-04-28 10:11:24 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:11:24 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeadersList.class
@@ -111,12 +111,12 @@ DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:13:35 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:13:35 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
@@ -167,12 +167,12 @@ DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:14:18 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:14:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
@@ -223,12 +223,12 @@ DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:14:31 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:14:31 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
@@ -279,12 +279,12 @@ DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:15:00 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:15:00 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
@@ -335,12 +335,12 @@ DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:21:59 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:21:59 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
@@ -391,12 +391,12 @@ DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:24:39 [#main]- Успешно добавлен заголовок файла.\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:24:39 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
@@ -433,9 +433,9 @@ DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
 DEBUG 2022-04-28 10:37:17 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\src\main\java\MySQLConnectException.java
@@ -462,9 +462,9 @@ DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
 DEBUG 2022-04-28 10:38:14 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\src\main\java\MySQLConnectException.java
@@ -491,9 +491,9 @@ DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
 DEBUG 2022-04-28 10:39:13 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\src\main\java\MySQLConnectException.java
@@ -520,9 +520,9 @@ DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
 DEBUG 2022-04-28 10:40:02 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\src\main\java\MySQLConnectException.java
@@ -567,12 +567,12 @@ DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок фай�
 DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\pom.xml
 DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxCommon\pom.xml
-DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\messages.FileHeader.java
-DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeader.java
+DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\src\main\java\FileHeadersList.java
 DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\messages.FileHeader.class
-DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeader.class
+DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:54:18 [#main]- Успешно добавлен заголовок файла .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-28 10:54:18 [#main]- Добавляем заголовок файла в БД файл .\FileBoxServer\pom.xml
@@ -733,9 +733,9 @@ DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла 
 DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\pom.xml
-DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxServer\pom.xml
 DEBUG 2022-04-29 09:36:01 [#main]- Добавил заголовок файла (fant) .\FileBoxServer\src\main\java\MySQLConnectException.java
@@ -770,9 +770,9 @@ DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\Fil
 DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxCommon\pom.xml
-DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxServer\pom.xml
 DEBUG 2022-04-29 15:43:42 [#main]- Файл уже есть в БД (fant) .\FileBoxServer\src\main\java\AuthConnectException.java
@@ -807,9 +807,9 @@ DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла 
 DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\pom.xml
-DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxServer\pom.xml
 DEBUG 2022-04-29 15:44:18 [#main]- Добавил заголовок файла (fant) .\FileBoxServer\src\main\java\AuthConnectException.java
@@ -844,9 +844,9 @@ DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\File
 DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\pom.xml
-DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxServer\pom.xml
 DEBUG 2022-04-29 15:46:21 [#main]- Файл уже есть в БД (fant).\FileBoxServer\src\main\java\AuthConnectException.java
@@ -888,9 +888,9 @@ DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\File
 DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxClient\target\classes\FileBoxClient.class
 DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxClient\target\classes\utils\HashUtil.class
 DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\pom.xml
-DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\src\main\java\messages.FileHeader.java
+DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\src\main\java\FileHeader.java
 DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\src\main\java\FileHeadersList.java
-DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\target\classes\messages.FileHeader.class
+DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\target\classes\FileHeader.class
 DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxCommon\target\classes\FileHeadersList.class
 DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxServer\pom.xml
 DEBUG 2022-04-29 17:10:17 [#main]- Файл уже есть в БД (fant).\FileBoxServer\src\main\java\AuthConnectException.java
@@ -2294,3 +2294,1199 @@ DEBUG 2022-06-03 22:52:30 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking
 DEBUG 2022-06-03 22:52:30 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
 DEBUG 2022-06-03 22:52:30 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
 DEBUG 2022-06-03 22:52:30 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5ece0260
+DEBUG 2022-06-04 22:37:05 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-04 22:37:05 [#main]- Java version: 17
+DEBUG 2022-06-04 22:37:05 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-04 22:37:05 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-04 22:37:05 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-04 22:37:05 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-04 22:37:05 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 22:37:05 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-04 22:37:05 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 22:37:05 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-04 22:37:05 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-04 22:37:05 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-04 22:37:05 [#main]- Platform: Windows
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-04 22:37:05 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-04 22:37:05 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-04 22:37:05 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@50dfbc58
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb19a0
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ee4d9ab
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5a5338df
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@418c5a9c
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@18e36d14
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5082d622
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@13d4992d
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@258d79be
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14f9390f
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c0d7c83
+TRACE 2022-06-04 22:37:05 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@176b75f7
+TRACE 2022-06-04 22:37:06 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5965be2d
+TRACE 2022-06-04 22:37:06 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@409c54f
+TRACE 2022-06-04 22:37:06 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3e74829
+TRACE 2022-06-04 22:37:06 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4f6f416f
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.processId: 8676 (auto-detected)
+DEBUG 2022-06-04 22:37:06 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-04 22:37:06 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-04 22:37:06 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-04 22:37:06 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-04 22:37:06 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5b0d5872
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- Щас клиент передаст файлы (120)
+DEBUG 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- Получены заголовки всех файлов от клиента
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='b5007bbd6d57f338be49bab2c4b5438b67cced16', filePath='.\.git\COMMIT_EDITMSG'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286942, lastModifiedDate='2022-06-03', lastModifiedTime='20:09:02', hash='a1256486638533c5c462f53564fcc586fb277607', filePath='.\.git\config'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='9635f1b7e12c045212819dd934d809ef07efa2f4', filePath='.\.git\description'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='acbaef275e46a7f14c1ef456fff2c8bbe8c84724', filePath='.\.git\HEAD'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd', filePath='.\.git\hooks\applypatch-msg.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='ee1ed5aad98a435f2020b6de35c173b75d9affac', filePath='.\.git\hooks\commit-msg.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='118ff5509f187039734d04456bf01e44c933ac19', filePath='.\.git\hooks\fsmonitor-watchman.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='b614c2f63da7dca9f1db2e7ade61ef30448fc96c', filePath='.\.git\hooks\post-update.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='f208287c1a92525de9f5462e905a9d31de1e2d75', filePath='.\.git\hooks\pre-applypatch.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='a79d057388ee2c2fe6561d7697f1f5efcff96f23', filePath='.\.git\hooks\pre-commit.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='04c64e58bc25c149482ed45dbd79e40effb89eb7', filePath='.\.git\hooks\pre-merge-commit.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='5c8518bfd1d1d3d2c1a7194994c0a16d8a313a41', filePath='.\.git\hooks\pre-push.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='288efdc0027db4cfd8b7c47c4aeddba09b6ded12', filePath='.\.git\hooks\pre-rebase.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='705a17d259e7896f0082fe2e9f2c0c3b127be5ac', filePath='.\.git\hooks\pre-receive.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='2584806ba147152ae005cb675aa4f01d5d068456', filePath='.\.git\hooks\prepare-commit-msg.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='92e81cca38312414b140f52b9de0655ee232f65f', filePath='.\.git\hooks\update.sample'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654370455, lastModifiedDate='2022-06-04', lastModifiedTime='19:20:55', hash='0c07e1e5861b57efe3638cec2b01372f09758eb3', filePath='.\.git\index'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:36', hash='c879df015d97615050afa7b9641e3352a1e701ac', filePath='.\.git\info\exclude'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='bc8a11ce4fb38bee4dff07ac741da2145dbcfede', filePath='.\.git\logs\HEAD'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='bc8a11ce4fb38bee4dff07ac741da2145dbcfede', filePath='.\.git\logs\refs\heads\master'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286942, lastModifiedDate='2022-06-03', lastModifiedTime='20:09:02', hash='e5e744f601b6849481a6a0ba5f9b51986a5229a8', filePath='.\.git\logs\refs\remotes\origin\master'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='32f127e62744a04c97689b90d19e6147f8f0907d', filePath='.\.git\objects\05\c91842ed1269bfa4efecbee66946ce4060ee82'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='0d61b09bee1afa25d8e6e05c8979844cfd4f7ec8', filePath='.\.git\objects\06\cfb68d4e26444f9a2d40f5cc4cfa01a319aded'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='513ee457a08036cccbbf3c6dd4e2fdcda4c1bc1f', filePath='.\.git\objects\1a\a44b63e090603c5d82c1218d63111c4f9a8056'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='4a6818c3b5653264edbd14a6542dde3dc38647b2', filePath='.\.git\objects\1b\43a41c23f1a35bc22229e580894c8992fd66c4'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='c8486f0aff927884deb6c4c72e0f2a4641cb27a8', filePath='.\.git\objects\23\0f6585f826b9d3af29c016a4f03b7476353819'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='29fe7e986ba3d95aa4200e5d377c695bd780a71d', filePath='.\.git\objects\26\d33521af10bcc7fd8cea344038eaaeb78d0ef5'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='2e14bca6082e6be677fd38e330fba74fae1b3272', filePath='.\.git\objects\2b\823737651be92e7fcd1527d23647d9d820fc4f'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='64f0b987b01af977bba01c9b35783010e6914fd6', filePath='.\.git\objects\2c\40b5758dd2ae5b4454407499f4e00251dc4762'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='947f010fd33cfaca22c81f4c8a310110ee31351f', filePath='.\.git\objects\2e\04dad4fffc05cf1aae285fab4363b57b3c2464'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='570139c8ab9e540627d5fcb9359a0126ec97386f', filePath='.\.git\objects\36\94230b182b0dc021f49c7a9da1fe0828b75547'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='5d18f2e07f77f61b80bb93e51fff64e99daf6357', filePath='.\.git\objects\3d\7e7b052a7438054acbebc72f0672d7bede54dc'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='858ad035304d6b2efc05b0dae39466cd130f80ce', filePath='.\.git\objects\4d\e58ae4b15115f0d67160b5c7f6d283d67f5c93'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='c23333f0ba77b877d04f612ba5362e935ff85520', filePath='.\.git\objects\59\dc97f8ba4d8a73baeea0931132023cb58d9c57'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='a36e79e1e85fa26443d0a0a6c8f0979a5e471cbb', filePath='.\.git\objects\5b\f49addbd3a2ff418a2bfa9d215f66c939b4019'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='25ad9352bfd26614ce2e86de855f26f799578611', filePath='.\.git\objects\5f\4bf0844bfd242b2ccc2157a96f7f4bc99e1156'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='e7b75c5c102107f2bd0dfb4f47a93ed27e8d9638', filePath='.\.git\objects\61\43068c2426fa2f9e21689db1f5cb8b28e89762'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='379f3ca3724d8c3ad268aeee60660bbf5fce0a74', filePath='.\.git\objects\62\4fc621365f031d31f906f229b7b5ddae2d7427'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='7b7d278e42c24209fd1d8b46ff3a1d19cfc9c23a', filePath='.\.git\objects\68\be021b67161acaae81654b2442ace472381cc8'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='f5cb47d3ad8e74cc5cb357cc4edd14b83872d1d8', filePath='.\.git\objects\6d\98cbb8ef6f8f4ab807a97fd2f5302355369509'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='d514172fa27c49139a1f76666c817d306101970b', filePath='.\.git\objects\6f\1534fbbdd5f4125c64976ee8918336abce94cb'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='5dd92e6b260851010f50635627f117c03094dbef', filePath='.\.git\objects\71\2ab9d985c20018a0c97b93d2148ac1ffe588a5'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='2d8ca56c62c40c4f9b9a96ba9831d77e89049d1c', filePath='.\.git\objects\71\f0aa0c63f50971c20a83c393a539e3e8941c26'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='99d93038afaa3717f74aa49701dad88aaf31860a', filePath='.\.git\objects\78\4c49deea0d17bc1684fda55be509c95750b95d'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='3824901e8766d60aebbdbc49b393b449e2c6c6ef', filePath='.\.git\objects\79\7acea53eb091cf5b30518802c3073f544adeed'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='4ae656aa79a8873793ba2462843f6be37c10cd5b', filePath='.\.git\objects\7b\ceea878207eed33846681b204f62d2eacff3d2'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='6286f8d05b1fd964f22fabe38da1aa724bf12323', filePath='.\.git\objects\7c\a6c1db18088cd294d22d2d03d26e2c1cfadf71'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='f467b4dd09bbc56e1d94bd2b41d48109c40e6b35', filePath='.\.git\objects\83\232ab05e587718af9474ef696f8069955a07f0'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='35451681d95b93deae2656e672dd6b14d4f63fe4', filePath='.\.git\objects\85\348e770447e7026ce421edc1c3246916367cb7'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='6f9de705881aec3b6a1b49a174d055e104bc3c8f', filePath='.\.git\objects\94\a25f7f4cb416c083d265558da75d457237d671'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='8bb4aea3ec188fe673bd056ccf94b74307ab1261', filePath='.\.git\objects\95\e3d424f7b638d28ca8ab0a83499af9072bb102'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='50babb9b6e070d71168c6009197b8aaa00048a28', filePath='.\.git\objects\a5\7248520806d4477415e467787b2f7405d9901c'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='7e8f16b94922ebd4ea09b9eced7f9c01a45c24bd', filePath='.\.git\objects\a6\dea71bc17f8b2c392e83ddd90db89daac0a081'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='fb7c09d64a0e8b437ba373a81fd6e70783558805', filePath='.\.git\objects\b3\e93055b4012b4f9fc092d172ab54b49e80f5c3'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654370408, lastModifiedDate='2022-06-04', lastModifiedTime='19:20:08', hash='80d801bf421023ec76b162d18e9e03ebaeba93d9', filePath='.\.git\objects\b8\08d4f87329c6bb473794b2054875b51199a2fd'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='c5c3783f83b9a1635e10d0dea658510242317b72', filePath='.\.git\objects\b9\a5cdc394baee46837c751e5397c17563bdeae4'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='bbe82dcfd7323043acec38cadf4df643418475d6', filePath='.\.git\objects\ba\b6b850e58498c9d6a54a2fa0a6e16c31714de8'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286695, lastModifiedDate='2022-06-03', lastModifiedTime='20:04:55', hash='6cfb041449e6be90dc4dd273f6d6a4c76dc11e7f', filePath='.\.git\objects\be\d9a93a0387c2d66481e4ecfa285e2925a32438'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='762f6f14037a04010099654d05619f2fe4f77b4c', filePath='.\.git\objects\ce\12cd51d94ee5d2e628788b95bd6f81ba845815'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='b78a22e9afd92cb2e1caa3af82997f8fe06acb22', filePath='.\.git\objects\d1\66f7fcf43a066909940c216667dd2039980fd7'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='ce2dc1a7575963d6c4815e22026de84199c3cf27', filePath='.\.git\objects\d7\2778963cb8b1583f3d696bbd5d8fa31f7277b8'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='037778e21eb6ff7931ead4dde46f5deb832c9bf9', filePath='.\.git\objects\d9\70f7715ea6d539b5d936a4b0514acbb0d9a8bf'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='3aeac8cecb1ef27e4eec0a3efb21be7a00e85d2e', filePath='.\.git\objects\db\57869058e6c5638933dca167889cdb44d519d8'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='b28338f49c582cbef0099351d1f75e4470814c40', filePath='.\.git\objects\dd\ba797530c1265ff41ba87758d61166ce39aa93'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='d793c661578ea8373dcd30a882a1fe137d0ec487', filePath='.\.git\objects\e4\019c1a5339a72c063177c11b9ae3d246f4ff15'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='de69272d6e245bc663cf3682c7fc724727912a27', filePath='.\.git\objects\e9\6534fb27b68192f27f985d3879e173ec77adb8'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, lastModifiedDate='2022-06-03', lastModifiedTime='20:07:55', hash='b8972d55feddd01f0e11003c02b040fe9bad4106', filePath='.\.git\objects\fb\41bcf13f1fbb32ef6c3b03c952d9b070b55b0a'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='1f471dd3741f67cbdc684cf0b25b31c13dbac150', filePath='.\.git\objects\fd\95082318d79e642de2b2a4a3c5f894d4a54a5e'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, lastModifiedDate='2022-06-03', lastModifiedTime='20:08:07', hash='82b296bd99e9e599e9172beb11f0a8c8277a1a39', filePath='.\.git\refs\heads\master'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286942, lastModifiedDate='2022-06-03', lastModifiedTime='20:09:02', hash='82b296bd99e9e599e9172beb11f0a8c8277a1a39', filePath='.\.git\refs\remotes\origin\master'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286758, lastModifiedDate='2022-06-03', lastModifiedTime='20:05:58', hash='25780195bd5943b9e777f4555242c3df0b98c505', filePath='.\.gitignore'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972394, lastModifiedDate='2022-04-26', lastModifiedTime='11:26:34', hash='1b27beedeb67ea5b2249f73fe6f7985c387bee94', filePath='.\.idea\.gitignore'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201282, lastModifiedDate='2022-06-02', lastModifiedTime='20:21:22', hash='3250adc7bf7dff84a41cf41690cffa230a5de278', filePath='.\.idea\compiler.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651055195, lastModifiedDate='2022-04-27', lastModifiedTime='10:26:35', hash='94db16b81175cf458d7c255e1ba1388a4ba05861', filePath='.\.idea\encodings.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972478, lastModifiedDate='2022-04-26', lastModifiedTime='11:27:58', hash='ae749a8957da4995f30590eb7fd6e3ff52145294', filePath='.\.idea\jarRepositories.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972388, lastModifiedDate='2022-04-26', lastModifiedTime='11:26:28', hash='f597f30f1df675bdc2bb8024645f5d625dd1008c', filePath='.\.idea\misc.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972388, lastModifiedDate='2022-04-26', lastModifiedTime='11:26:28', hash='bdf405b8b63a8953de0896155156139707184d25', filePath='.\.idea\runConfigurations.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651055429, lastModifiedDate='2022-04-27', lastModifiedTime='10:30:29', hash='57d92619f9498eb64f338a8b1ca615d777e947ea', filePath='.\.idea\uiDesigner.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286780, lastModifiedDate='2022-06-03', lastModifiedTime='20:06:20', hash='d222c1e95ba289f2814d142867f8b3c8b656bcc6', filePath='.\.idea\vcs.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371491, lastModifiedDate='2022-06-04', lastModifiedTime='19:38:11', hash='eb751d960928c641f16b2a237a234d770e354007', filePath='.\.idea\workspace.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1581446054, lastModifiedDate='2020-02-11', lastModifiedTime='18:34:14', hash='9eed2f3f6ffa0c1316369ef5f2d96d9bc9909c36', filePath='.\client_storage\1.txt'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1583779940, lastModifiedDate='2020-03-09', lastModifiedTime='18:52:20', hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\client_storage\2.txt'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1584034846, lastModifiedDate='2020-03-12', lastModifiedTime='17:40:46', hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\client_storage\3.txt'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201655, lastModifiedDate='2022-06-02', lastModifiedTime='20:27:35', hash='0043d7e37744e7a8a851826e2fafa9cb1a8984c5', filePath='.\FileBoxClient\pom.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371491, lastModifiedDate='2022-06-04', lastModifiedTime='19:38:11', hash='d8392a25382d7505482df5f87424ccd91ed3bcea', filePath='.\FileBoxClient\src\main\java\FileBoxClient.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, lastModifiedDate='2022-06-03', lastModifiedTime='20:02:53', hash='4294a9a3959823dff327ffe4bd5515ee88bf9be5', filePath='.\FileBoxClient\src\main\java\Network.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371496, lastModifiedDate='2022-06-04', lastModifiedTime='19:38:16', hash='d1c2e25f51c1171a8aeaefb55994584220b39db9', filePath='.\FileBoxClient\target\classes\FileBoxClient.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371495, lastModifiedDate='2022-06-04', lastModifiedTime='19:38:15', hash='485bcc909a0e9500d9fdb654e0e0012ea14fcbc2', filePath='.\FileBoxClient\target\classes\Network.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651065038, lastModifiedDate='2022-04-27', lastModifiedTime='13:10:38', hash='60a9b0eb9b2fe273586db3e6618607c9b869d947', filePath='.\FileBoxCommon\pom.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654370607, lastModifiedDate='2022-06-04', lastModifiedTime='19:23:27', hash='bfe5d237d801b7dbb879dc21838abe54393a97c9', filePath='.\FileBoxCommon\src\main\java\FileHeadersList1.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201615, lastModifiedDate='2022-06-02', lastModifiedTime='20:26:55', hash='791fb5556f147bc355d4daa435fa2d0b43db8214', filePath='.\FileBoxCommon\src\main\java\HashUtil.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, lastModifiedDate='2022-06-03', lastModifiedTime='20:02:53', hash='ccc18f639654214a703ba26d2c878c80598462a0', filePath='.\FileBoxCommon\src\main\java\messages\AbstractMessage.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371491, lastModifiedDate='2022-06-04', lastModifiedTime='19:38:11', hash='71ac92ec3092dcba93ef934ed01eb20614f1a807', filePath='.\FileBoxCommon\src\main\java\messages\FileHeader.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, lastModifiedDate='2022-06-03', lastModifiedTime='20:02:53', hash='c8faeac9f72c555f99e88912875262a6ca33be79', filePath='.\FileBoxCommon\src\main\java\messages\FileMessage.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, lastModifiedDate='2022-06-03', lastModifiedTime='20:02:53', hash='f425df5bf74c325b9bb97a7b93187f0a11d7e48e', filePath='.\FileBoxCommon\src\main\java\messages\FileRequest.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654370608, lastModifiedDate='2022-06-04', lastModifiedTime='19:23:28', hash='72d4fd2401ecabd534593474d1db13363413fd29', filePath='.\FileBoxCommon\src\main\java\messages\PrepareToFileList.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:00', hash='3af25df3c8248665417e17ddcea4955a8b0f58cd', filePath='.\FileBoxCommon\target\classes\FileHeadersList1.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654272665, lastModifiedDate='2022-06-03', lastModifiedTime='16:11:05', hash='f69b2de907cdccd68671d98a2b6c237c5ed6f19f', filePath='.\FileBoxCommon\target\classes\HashUtil.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:00', hash='3d9f5a9aad97ce45c9a83084deb539f815e04767', filePath='.\FileBoxCommon\target\classes\messages\AbstractMessage.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371495, lastModifiedDate='2022-06-04', lastModifiedTime='19:38:15', hash='952a654cb97e7c7f4a688f2429d5856a2672e443', filePath='.\FileBoxCommon\target\classes\messages\FileHeader.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:00', hash='dc8a1c58809e359dcd25aa221bcf18b2fdebd12d', filePath='.\FileBoxCommon\target\classes\messages\FileMessage.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:00', hash='1e524a846825ab3e59ecd0e070266da13c2873d3', filePath='.\FileBoxCommon\target\classes\messages\FileRequest.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:00', hash='7ba97ce6ae2b7e597ef150dcae3c0bb25a8348b9', filePath='.\FileBoxCommon\target\classes\messages\PrepareToFileList.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654168109, lastModifiedDate='2022-06-02', lastModifiedTime='11:08:29', hash='3de5c7267109bb69b6714895db912606b93d75fe', filePath='.\FileBoxServer\pom.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371145, lastModifiedDate='2022-06-04', lastModifiedTime='19:32:25', hash='6f2bc9baca6ea4576551d9ac661740896c45bbd0', filePath='.\FileBoxServer\src\main\java\FileBoxServer.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371409, lastModifiedDate='2022-06-04', lastModifiedTime='19:36:49', hash='ddd36768e006d2212e6ace7d16e54b356aec9ba4', filePath='.\FileBoxServer\src\main\java\MainHandler.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651215544, lastModifiedDate='2022-04-29', lastModifiedTime='06:59:04', hash='d23171811188994e3f5da24f8f38a9908a5c709d', filePath='.\FileBoxServer\src\main\java\MySQLConnectException.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371145, lastModifiedDate='2022-06-04', lastModifiedTime='19:32:25', hash='24b02889739d38e41d7da4df380d47fa0e3981f6', filePath='.\FileBoxServer\src\main\java\MySQLService.java'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201261, lastModifiedDate='2022-06-02', lastModifiedTime='20:21:01', hash='becf592b96c350bfbba8bbe93e458a08782f8ff9', filePath='.\FileBoxServer\src\main\resources\log4j2.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:02', hash='5ee9efc18207a6be18f509ee1551531d77e287ef', filePath='.\FileBoxServer\target\classes\FileBoxServer$1.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:02', hash='68db0b68c5aeb10e7b79546a5f37801ad22137df', filePath='.\FileBoxServer\target\classes\FileBoxServer.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201261, lastModifiedDate='2022-06-02', lastModifiedTime='20:21:01', hash='becf592b96c350bfbba8bbe93e458a08782f8ff9', filePath='.\FileBoxServer\target\classes\log4j2.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:02', hash='df234d2e2e40fa6d8cf0f23de56c19eb9fa998bb', filePath='.\FileBoxServer\target\classes\MainHandler.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201513, lastModifiedDate='2022-06-02', lastModifiedTime='20:25:13', hash='c1e53862e494d760d78c307d9a5d10697ecf4c0b', filePath='.\FileBoxServer\target\classes\MySQLConnectException.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:02', hash='b58971e0743799034a6c43852bf0a81b724d05f4', filePath='.\FileBoxServer\target\classes\MySQLService.class'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371432, lastModifiedDate='2022-06-04', lastModifiedTime='19:37:12', hash='6467a762c32edbb697340bd8f95a1a3338bcac31', filePath='.\logs\FileBoxServer.log'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201261, lastModifiedDate='2022-06-02', lastModifiedTime='20:21:01', hash='37a1adcbd0ed5a0a7b17c2744209f71e6c201a40', filePath='.\pom.xml'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1555439286, lastModifiedDate='2019-04-16', lastModifiedTime='18:28:06', hash='9eed2f3f6ffa0c1316369ef5f2d96d9bc9909c36', filePath='.\server_storage\1.txt'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1572461413, lastModifiedDate='2019-10-30', lastModifiedTime='18:50:13', hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\server_storage\2.txt'}
+TRACE 2022-06-04 22:38:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1572461417, lastModifiedDate='2019-10-30', lastModifiedTime='18:50:17', hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\server_storage\3.txt'}
+DEBUG 2022-06-04 22:40:59 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-04 22:40:59 [#main]- Java version: 17
+DEBUG 2022-06-04 22:40:59 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-04 22:40:59 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-04 22:40:59 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-04 22:40:59 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-04 22:40:59 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 22:40:59 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-04 22:40:59 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 22:40:59 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-04 22:40:59 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-04 22:40:59 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-04 22:40:59 [#main]- Platform: Windows
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-04 22:40:59 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-04 22:40:59 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-04 22:40:59 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@50dfbc58
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb19a0
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ee4d9ab
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5a5338df
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@418c5a9c
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@18e36d14
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5082d622
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@13d4992d
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@258d79be
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14f9390f
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c0d7c83
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@176b75f7
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5965be2d
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@409c54f
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3e74829
+TRACE 2022-06-04 22:41:00 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4f6f416f
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.processId: 9572 (auto-detected)
+DEBUG 2022-06-04 22:41:00 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-04 22:41:00 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-04 22:41:00 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-04 22:41:00 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-04 22:41:00 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a724b35
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- Щас клиент передаст файлы (120)
+DEBUG 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- Получены заголовки всех файлов от клиента
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='b5007bbd6d57f338be49bab2c4b5438b67cced16', filePath='.\.git\COMMIT_EDITMSG'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286942, hash='a1256486638533c5c462f53564fcc586fb277607', filePath='.\.git\config'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='9635f1b7e12c045212819dd934d809ef07efa2f4', filePath='.\.git\description'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='acbaef275e46a7f14c1ef456fff2c8bbe8c84724', filePath='.\.git\HEAD'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd', filePath='.\.git\hooks\applypatch-msg.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='ee1ed5aad98a435f2020b6de35c173b75d9affac', filePath='.\.git\hooks\commit-msg.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='118ff5509f187039734d04456bf01e44c933ac19', filePath='.\.git\hooks\fsmonitor-watchman.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='b614c2f63da7dca9f1db2e7ade61ef30448fc96c', filePath='.\.git\hooks\post-update.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='f208287c1a92525de9f5462e905a9d31de1e2d75', filePath='.\.git\hooks\pre-applypatch.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='a79d057388ee2c2fe6561d7697f1f5efcff96f23', filePath='.\.git\hooks\pre-commit.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='04c64e58bc25c149482ed45dbd79e40effb89eb7', filePath='.\.git\hooks\pre-merge-commit.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='5c8518bfd1d1d3d2c1a7194994c0a16d8a313a41', filePath='.\.git\hooks\pre-push.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='288efdc0027db4cfd8b7c47c4aeddba09b6ded12', filePath='.\.git\hooks\pre-rebase.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='705a17d259e7896f0082fe2e9f2c0c3b127be5ac', filePath='.\.git\hooks\pre-receive.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='2584806ba147152ae005cb675aa4f01d5d068456', filePath='.\.git\hooks\prepare-commit-msg.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='92e81cca38312414b140f52b9de0655ee232f65f', filePath='.\.git\hooks\update.sample'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654370455, hash='0c07e1e5861b57efe3638cec2b01372f09758eb3', filePath='.\.git\index'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286676, hash='c879df015d97615050afa7b9641e3352a1e701ac', filePath='.\.git\info\exclude'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='bc8a11ce4fb38bee4dff07ac741da2145dbcfede', filePath='.\.git\logs\HEAD'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='bc8a11ce4fb38bee4dff07ac741da2145dbcfede', filePath='.\.git\logs\refs\heads\master'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286942, hash='e5e744f601b6849481a6a0ba5f9b51986a5229a8', filePath='.\.git\logs\refs\remotes\origin\master'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='32f127e62744a04c97689b90d19e6147f8f0907d', filePath='.\.git\objects\05\c91842ed1269bfa4efecbee66946ce4060ee82'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='0d61b09bee1afa25d8e6e05c8979844cfd4f7ec8', filePath='.\.git\objects\06\cfb68d4e26444f9a2d40f5cc4cfa01a319aded'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='513ee457a08036cccbbf3c6dd4e2fdcda4c1bc1f', filePath='.\.git\objects\1a\a44b63e090603c5d82c1218d63111c4f9a8056'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='4a6818c3b5653264edbd14a6542dde3dc38647b2', filePath='.\.git\objects\1b\43a41c23f1a35bc22229e580894c8992fd66c4'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='c8486f0aff927884deb6c4c72e0f2a4641cb27a8', filePath='.\.git\objects\23\0f6585f826b9d3af29c016a4f03b7476353819'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='29fe7e986ba3d95aa4200e5d377c695bd780a71d', filePath='.\.git\objects\26\d33521af10bcc7fd8cea344038eaaeb78d0ef5'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='2e14bca6082e6be677fd38e330fba74fae1b3272', filePath='.\.git\objects\2b\823737651be92e7fcd1527d23647d9d820fc4f'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='64f0b987b01af977bba01c9b35783010e6914fd6', filePath='.\.git\objects\2c\40b5758dd2ae5b4454407499f4e00251dc4762'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='947f010fd33cfaca22c81f4c8a310110ee31351f', filePath='.\.git\objects\2e\04dad4fffc05cf1aae285fab4363b57b3c2464'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='570139c8ab9e540627d5fcb9359a0126ec97386f', filePath='.\.git\objects\36\94230b182b0dc021f49c7a9da1fe0828b75547'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='5d18f2e07f77f61b80bb93e51fff64e99daf6357', filePath='.\.git\objects\3d\7e7b052a7438054acbebc72f0672d7bede54dc'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='858ad035304d6b2efc05b0dae39466cd130f80ce', filePath='.\.git\objects\4d\e58ae4b15115f0d67160b5c7f6d283d67f5c93'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='c23333f0ba77b877d04f612ba5362e935ff85520', filePath='.\.git\objects\59\dc97f8ba4d8a73baeea0931132023cb58d9c57'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='a36e79e1e85fa26443d0a0a6c8f0979a5e471cbb', filePath='.\.git\objects\5b\f49addbd3a2ff418a2bfa9d215f66c939b4019'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='25ad9352bfd26614ce2e86de855f26f799578611', filePath='.\.git\objects\5f\4bf0844bfd242b2ccc2157a96f7f4bc99e1156'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='e7b75c5c102107f2bd0dfb4f47a93ed27e8d9638', filePath='.\.git\objects\61\43068c2426fa2f9e21689db1f5cb8b28e89762'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='379f3ca3724d8c3ad268aeee60660bbf5fce0a74', filePath='.\.git\objects\62\4fc621365f031d31f906f229b7b5ddae2d7427'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='7b7d278e42c24209fd1d8b46ff3a1d19cfc9c23a', filePath='.\.git\objects\68\be021b67161acaae81654b2442ace472381cc8'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='f5cb47d3ad8e74cc5cb357cc4edd14b83872d1d8', filePath='.\.git\objects\6d\98cbb8ef6f8f4ab807a97fd2f5302355369509'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='d514172fa27c49139a1f76666c817d306101970b', filePath='.\.git\objects\6f\1534fbbdd5f4125c64976ee8918336abce94cb'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='5dd92e6b260851010f50635627f117c03094dbef', filePath='.\.git\objects\71\2ab9d985c20018a0c97b93d2148ac1ffe588a5'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='2d8ca56c62c40c4f9b9a96ba9831d77e89049d1c', filePath='.\.git\objects\71\f0aa0c63f50971c20a83c393a539e3e8941c26'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='99d93038afaa3717f74aa49701dad88aaf31860a', filePath='.\.git\objects\78\4c49deea0d17bc1684fda55be509c95750b95d'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='3824901e8766d60aebbdbc49b393b449e2c6c6ef', filePath='.\.git\objects\79\7acea53eb091cf5b30518802c3073f544adeed'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='4ae656aa79a8873793ba2462843f6be37c10cd5b', filePath='.\.git\objects\7b\ceea878207eed33846681b204f62d2eacff3d2'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='6286f8d05b1fd964f22fabe38da1aa724bf12323', filePath='.\.git\objects\7c\a6c1db18088cd294d22d2d03d26e2c1cfadf71'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='f467b4dd09bbc56e1d94bd2b41d48109c40e6b35', filePath='.\.git\objects\83\232ab05e587718af9474ef696f8069955a07f0'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='35451681d95b93deae2656e672dd6b14d4f63fe4', filePath='.\.git\objects\85\348e770447e7026ce421edc1c3246916367cb7'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='6f9de705881aec3b6a1b49a174d055e104bc3c8f', filePath='.\.git\objects\94\a25f7f4cb416c083d265558da75d457237d671'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='8bb4aea3ec188fe673bd056ccf94b74307ab1261', filePath='.\.git\objects\95\e3d424f7b638d28ca8ab0a83499af9072bb102'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='50babb9b6e070d71168c6009197b8aaa00048a28', filePath='.\.git\objects\a5\7248520806d4477415e467787b2f7405d9901c'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='7e8f16b94922ebd4ea09b9eced7f9c01a45c24bd', filePath='.\.git\objects\a6\dea71bc17f8b2c392e83ddd90db89daac0a081'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='fb7c09d64a0e8b437ba373a81fd6e70783558805', filePath='.\.git\objects\b3\e93055b4012b4f9fc092d172ab54b49e80f5c3'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654370408, hash='80d801bf421023ec76b162d18e9e03ebaeba93d9', filePath='.\.git\objects\b8\08d4f87329c6bb473794b2054875b51199a2fd'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='c5c3783f83b9a1635e10d0dea658510242317b72', filePath='.\.git\objects\b9\a5cdc394baee46837c751e5397c17563bdeae4'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='bbe82dcfd7323043acec38cadf4df643418475d6', filePath='.\.git\objects\ba\b6b850e58498c9d6a54a2fa0a6e16c31714de8'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286695, hash='6cfb041449e6be90dc4dd273f6d6a4c76dc11e7f', filePath='.\.git\objects\be\d9a93a0387c2d66481e4ecfa285e2925a32438'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='762f6f14037a04010099654d05619f2fe4f77b4c', filePath='.\.git\objects\ce\12cd51d94ee5d2e628788b95bd6f81ba845815'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='b78a22e9afd92cb2e1caa3af82997f8fe06acb22', filePath='.\.git\objects\d1\66f7fcf43a066909940c216667dd2039980fd7'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='ce2dc1a7575963d6c4815e22026de84199c3cf27', filePath='.\.git\objects\d7\2778963cb8b1583f3d696bbd5d8fa31f7277b8'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='037778e21eb6ff7931ead4dde46f5deb832c9bf9', filePath='.\.git\objects\d9\70f7715ea6d539b5d936a4b0514acbb0d9a8bf'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='3aeac8cecb1ef27e4eec0a3efb21be7a00e85d2e', filePath='.\.git\objects\db\57869058e6c5638933dca167889cdb44d519d8'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='b28338f49c582cbef0099351d1f75e4470814c40', filePath='.\.git\objects\dd\ba797530c1265ff41ba87758d61166ce39aa93'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='d793c661578ea8373dcd30a882a1fe137d0ec487', filePath='.\.git\objects\e4\019c1a5339a72c063177c11b9ae3d246f4ff15'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='de69272d6e245bc663cf3682c7fc724727912a27', filePath='.\.git\objects\e9\6534fb27b68192f27f985d3879e173ec77adb8'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286875, hash='b8972d55feddd01f0e11003c02b040fe9bad4106', filePath='.\.git\objects\fb\41bcf13f1fbb32ef6c3b03c952d9b070b55b0a'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='1f471dd3741f67cbdc684cf0b25b31c13dbac150', filePath='.\.git\objects\fd\95082318d79e642de2b2a4a3c5f894d4a54a5e'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286887, hash='82b296bd99e9e599e9172beb11f0a8c8277a1a39', filePath='.\.git\refs\heads\master'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286942, hash='82b296bd99e9e599e9172beb11f0a8c8277a1a39', filePath='.\.git\refs\remotes\origin\master'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286758, hash='25780195bd5943b9e777f4555242c3df0b98c505', filePath='.\.gitignore'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972394, hash='1b27beedeb67ea5b2249f73fe6f7985c387bee94', filePath='.\.idea\.gitignore'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201282, hash='3250adc7bf7dff84a41cf41690cffa230a5de278', filePath='.\.idea\compiler.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651055195, hash='94db16b81175cf458d7c255e1ba1388a4ba05861', filePath='.\.idea\encodings.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972478, hash='ae749a8957da4995f30590eb7fd6e3ff52145294', filePath='.\.idea\jarRepositories.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972388, hash='f597f30f1df675bdc2bb8024645f5d625dd1008c', filePath='.\.idea\misc.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1650972388, hash='bdf405b8b63a8953de0896155156139707184d25', filePath='.\.idea\runConfigurations.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651055429, hash='57d92619f9498eb64f338a8b1ca615d777e947ea', filePath='.\.idea\uiDesigner.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286780, hash='d222c1e95ba289f2814d142867f8b3c8b656bcc6', filePath='.\.idea\vcs.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371663, hash='eb751d960928c641f16b2a237a234d770e354007', filePath='.\.idea\workspace.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1581446054, hash='9eed2f3f6ffa0c1316369ef5f2d96d9bc9909c36', filePath='.\client_storage\1.txt'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1583779940, hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\client_storage\2.txt'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1584034846, hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\client_storage\3.txt'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201655, hash='0043d7e37744e7a8a851826e2fafa9cb1a8984c5', filePath='.\FileBoxClient\pom.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371627, hash='af3f10b34c4f2680048df86cd1e2d50e4cd115fc', filePath='.\FileBoxClient\src\main\java\FileBoxClient.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, hash='4294a9a3959823dff327ffe4bd5515ee88bf9be5', filePath='.\FileBoxClient\src\main\java\Network.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371666, hash='79948d87c40ff6f185347c42a1844007a1c5785b', filePath='.\FileBoxClient\target\classes\FileBoxClient.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371495, hash='485bcc909a0e9500d9fdb654e0e0012ea14fcbc2', filePath='.\FileBoxClient\target\classes\Network.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651065038, hash='60a9b0eb9b2fe273586db3e6618607c9b869d947', filePath='.\FileBoxCommon\pom.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371654, hash='51ae86d4db38a818a366fc3297540f00d6e04f49', filePath='.\FileBoxCommon\src\main\java\FileHeadersList1.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201615, hash='791fb5556f147bc355d4daa435fa2d0b43db8214', filePath='.\FileBoxCommon\src\main\java\HashUtil.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, hash='ccc18f639654214a703ba26d2c878c80598462a0', filePath='.\FileBoxCommon\src\main\java\messages\AbstractMessage.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371627, hash='5c0c621068f92caeefc7f158ae9061f0d90d2b73', filePath='.\FileBoxCommon\src\main\java\messages\FileHeader.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, hash='c8faeac9f72c555f99e88912875262a6ca33be79', filePath='.\FileBoxCommon\src\main\java\messages\FileMessage.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654286573, hash='f425df5bf74c325b9bb97a7b93187f0a11d7e48e', filePath='.\FileBoxCommon\src\main\java\messages\FileRequest.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654370608, hash='72d4fd2401ecabd534593474d1db13363413fd29', filePath='.\FileBoxCommon\src\main\java\messages\PrepareToFileList.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371657, hash='9a47b176a180a6567a2127dbfc6dc2c2de665b35', filePath='.\FileBoxCommon\target\classes\FileHeadersList1.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654272665, hash='f69b2de907cdccd68671d98a2b6c237c5ed6f19f', filePath='.\FileBoxCommon\target\classes\HashUtil.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, hash='3d9f5a9aad97ce45c9a83084deb539f815e04767', filePath='.\FileBoxCommon\target\classes\messages\AbstractMessage.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371657, hash='97d5981b98123df2e0c4a4b4c1ec846e6af8e5c3', filePath='.\FileBoxCommon\target\classes\messages\FileHeader.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, hash='dc8a1c58809e359dcd25aa221bcf18b2fdebd12d', filePath='.\FileBoxCommon\target\classes\messages\FileMessage.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, hash='1e524a846825ab3e59ecd0e070266da13c2873d3', filePath='.\FileBoxCommon\target\classes\messages\FileRequest.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371420, hash='7ba97ce6ae2b7e597ef150dcae3c0bb25a8348b9', filePath='.\FileBoxCommon\target\classes\messages\PrepareToFileList.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654168109, hash='3de5c7267109bb69b6714895db912606b93d75fe', filePath='.\FileBoxServer\pom.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371145, hash='6f2bc9baca6ea4576551d9ac661740896c45bbd0', filePath='.\FileBoxServer\src\main\java\FileBoxServer.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371409, hash='ddd36768e006d2212e6ace7d16e54b356aec9ba4', filePath='.\FileBoxServer\src\main\java\MainHandler.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1651215544, hash='d23171811188994e3f5da24f8f38a9908a5c709d', filePath='.\FileBoxServer\src\main\java\MySQLConnectException.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371145, hash='24b02889739d38e41d7da4df380d47fa0e3981f6', filePath='.\FileBoxServer\src\main\java\MySQLService.java'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201261, hash='becf592b96c350bfbba8bbe93e458a08782f8ff9', filePath='.\FileBoxServer\src\main\resources\log4j2.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, hash='5ee9efc18207a6be18f509ee1551531d77e287ef', filePath='.\FileBoxServer\target\classes\FileBoxServer$1.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, hash='68db0b68c5aeb10e7b79546a5f37801ad22137df', filePath='.\FileBoxServer\target\classes\FileBoxServer.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201261, hash='becf592b96c350bfbba8bbe93e458a08782f8ff9', filePath='.\FileBoxServer\target\classes\log4j2.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, hash='df234d2e2e40fa6d8cf0f23de56c19eb9fa998bb', filePath='.\FileBoxServer\target\classes\MainHandler.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201513, hash='c1e53862e494d760d78c307d9a5d10697ecf4c0b', filePath='.\FileBoxServer\target\classes\MySQLConnectException.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371422, hash='b58971e0743799034a6c43852bf0a81b724d05f4', filePath='.\FileBoxServer\target\classes\MySQLService.class'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654371662, hash='01e6a0834ab7a003c5229c1fe15628385a82b7fa', filePath='.\logs\FileBoxServer.log'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1654201261, hash='37a1adcbd0ed5a0a7b17c2744209f71e6c201a40', filePath='.\pom.xml'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1555439286, hash='9eed2f3f6ffa0c1316369ef5f2d96d9bc9909c36', filePath='.\server_storage\1.txt'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1572461413, hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\server_storage\2.txt'}
+TRACE 2022-06-04 22:41:10 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1572461417, hash='da39a3ee5e6b4b0d3255bfef95601890afd80709', filePath='.\server_storage\3.txt'}
+DEBUG 2022-06-04 22:55:19 [#nioEventLoopGroup-3-2]- Щас клиент передаст файлы (120)
+DEBUG 2022-06-04 22:57:01 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-04 22:57:01 [#main]- Java version: 17
+DEBUG 2022-06-04 22:57:01 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-04 22:57:01 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-04 22:57:01 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-04 22:57:01 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-04 22:57:01 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 22:57:01 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-04 22:57:01 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 22:57:01 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-04 22:57:01 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-04 22:57:01 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-04 22:57:01 [#main]- Platform: Windows
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-04 22:57:01 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-04 22:57:01 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-04 22:57:01 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@50dfbc58
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb19a0
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ee4d9ab
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5a5338df
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@418c5a9c
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@18e36d14
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5082d622
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@13d4992d
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@258d79be
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14f9390f
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c0d7c83
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@176b75f7
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5965be2d
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@409c54f
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3e74829
+TRACE 2022-06-04 22:57:02 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4f6f416f
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.processId: 4320 (auto-detected)
+DEBUG 2022-06-04 22:57:02 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-04 22:57:02 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-04 22:57:02 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-04 22:57:02 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-04 22:57:02 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-04 23:06:48 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-04 23:06:48 [#main]- Java version: 17
+DEBUG 2022-06-04 23:06:48 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-04 23:06:48 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-04 23:06:48 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-04 23:06:48 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-04 23:06:48 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 23:06:48 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-04 23:06:48 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:100) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 23:06:48 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-04 23:06:48 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-04 23:06:48 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-04 23:06:48 [#main]- Platform: Windows
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-04 23:06:48 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-04 23:06:48 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@50dfbc58
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb19a0
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ee4d9ab
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5a5338df
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@418c5a9c
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@18e36d14
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5082d622
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@13d4992d
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@258d79be
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14f9390f
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c0d7c83
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@176b75f7
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5965be2d
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@409c54f
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3e74829
+TRACE 2022-06-04 23:06:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4f6f416f
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.processId: 10420 (auto-detected)
+DEBUG 2022-06-04 23:06:48 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-04 23:06:48 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-04 23:06:48 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-04 23:06:48 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-04 23:06:48 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6de33674
+DEBUG 2022-06-04 23:06:57 [#nioEventLoopGroup-3-1]- Щас клиент передаст файлы (123)
+DEBUG 2022-06-04 23:07:40 [#nioEventLoopGroup-3-2]- Щас клиент передаст файлы (3)
+DEBUG 2022-06-04 23:07:40 [#nioEventLoopGroup-3-2]- Получены заголовки всех файлов от клиента
+TRACE 2022-06-04 23:07:40 [#nioEventLoopGroup-3-2]- FileHeader{lastModifiedSeconds=1581446054, filePath='client_storage\1.txt'}
+TRACE 2022-06-04 23:07:40 [#nioEventLoopGroup-3-2]- FileHeader{lastModifiedSeconds=1583779940, filePath='client_storage\2.txt'}
+TRACE 2022-06-04 23:07:40 [#nioEventLoopGroup-3-2]- FileHeader{lastModifiedSeconds=1584034846, filePath='client_storage\3.txt'}
+DEBUG 2022-06-04 23:23:39 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-04 23:23:39 [#main]- Java version: 17
+DEBUG 2022-06-04 23:23:39 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-04 23:23:39 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-04 23:23:39 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-04 23:23:39 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-04 23:23:39 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:101) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 23:23:39 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-04 23:23:39 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:101) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-04 23:23:39 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-04 23:23:39 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-04 23:23:39 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-04 23:23:39 [#main]- Platform: Windows
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-04 23:23:39 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-04 23:23:39 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@10f7f7de
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5e3d57c7
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@732d0d24
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb19a0
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ee4d9ab
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5a5338df
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@418c5a9c
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@18e36d14
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@48d61b48
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@68d279ec
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@258d79be
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14f9390f
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c0d7c83
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@176b75f7
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5965be2d
+TRACE 2022-06-04 23:23:39 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@409c54f
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.processId: 14120 (auto-detected)
+DEBUG 2022-06-04 23:23:39 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-04 23:23:39 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-04 23:23:39 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-04 23:23:39 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-04 23:23:39 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2871ef02
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- Щас клиент передаст файлы (3)
+DEBUG 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- Получены заголовки всех файлов от клиента
+TRACE 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1581446054, filePath='client_storage\1.txt'}
+TRACE 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1583779940, filePath='client_storage\2.txt'}
+TRACE 2022-06-04 23:29:39 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1584034846, filePath='client_storage\3.txt'}
+DEBUG 2022-06-05 00:09:13 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-05 00:09:13 [#main]- Java version: 17
+DEBUG 2022-06-05 00:09:13 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-05 00:09:13 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-05 00:09:13 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-05 00:09:13 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-05 00:09:13 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:101) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 00:09:13 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-05 00:09:13 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.<init>(FileBoxServer.java:101) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 00:09:13 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-05 00:09:13 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-05 00:09:13 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-05 00:09:13 [#main]- Platform: Windows
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-05 00:09:13 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-05 00:09:13 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-05 00:09:13 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-05 00:09:13 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@10f7f7de
+TRACE 2022-06-05 00:09:13 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5e3d57c7
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@732d0d24
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb19a0
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ee4d9ab
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5a5338df
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@418c5a9c
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@18e36d14
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@48d61b48
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@68d279ec
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@258d79be
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14f9390f
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c0d7c83
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@176b75f7
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5965be2d
+TRACE 2022-06-05 00:09:14 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@409c54f
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.processId: 2480 (auto-detected)
+DEBUG 2022-06-05 00:09:14 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-05 00:09:14 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-05 00:09:14 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-05 00:09:14 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-05 00:09:14 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2871ef02
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- Щас клиент передаст файлы (3)
+DEBUG 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- Получены заголовки всех файлов от клиента
+TRACE 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1581446054, filePath='client_storage\1.txt'}
+TRACE 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1583779940, filePath='client_storage\2.txt'}
+TRACE 2022-06-05 00:09:19 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1584034846, filePath='client_storage\3.txt'}
+INFO  2022-06-05 00:13:47 [#main]- Сервис подключается к БД.. 
+INFO  2022-06-05 00:13:48 [#main]- Сервис подключён к БД (jdbc:mysql://localhost:3306/filebox)
+DEBUG 2022-06-05 00:13:48 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-05 00:13:48 [#main]- Java version: 17
+DEBUG 2022-06-05 00:13:48 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-05 00:13:48 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-05 00:13:48 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-05 00:13:48 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-05 00:13:48 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 00:13:48 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-05 00:13:48 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 00:13:48 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-05 00:13:48 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-05 00:13:48 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-05 00:13:48 [#main]- Platform: Windows
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-05 00:13:48 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-05 00:13:48 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b58f754
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1e044120
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2cf23c81
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3624da92
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@35fe2125
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@94f6bfb
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@34645867
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2484f433
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c345c5f
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6b5966e1
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65e61854
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1568159
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4fcee388
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6f80fafe
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3af17be2
+TRACE 2022-06-05 00:13:48 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@f9879ac
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.processId: 11516 (auto-detected)
+DEBUG 2022-06-05 00:13:48 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-05 00:13:48 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-05 00:13:48 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-05 00:13:48 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-05 00:13:48 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-05 00:13:49 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2950ba2b
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- Щас клиент передаст файлы (3)
+DEBUG 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- Получены заголовки всех файлов от клиента
+TRACE 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1581446054, filePath='client_storage\1.txt'}
+TRACE 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1583779940, filePath='client_storage\2.txt'}
+TRACE 2022-06-05 00:13:58 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1584034846, filePath='client_storage\3.txt'}
+INFO  2022-06-05 21:37:25 [#main]- Сервис подключается к БД.. 
+INFO  2022-06-05 21:37:26 [#main]- Сервис подключён к БД (jdbc:mysql://localhost:3306/filebox)
+DEBUG 2022-06-05 21:37:26 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-05 21:37:26 [#main]- Java version: 17
+DEBUG 2022-06-05 21:37:26 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-05 21:37:26 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-05 21:37:26 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-05 21:37:26 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-05 21:37:26 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 21:37:26 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-05 21:37:26 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 21:37:26 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-05 21:37:26 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-05 21:37:26 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-05 21:37:26 [#main]- Platform: Windows
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-05 21:37:26 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-05 21:37:26 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-05 21:37:26 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5fcacc0
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@62679465
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6a988392
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1d71006f
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5b6813df
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5f2606b
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b58f754
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3ebff828
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@51e4ccb3
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@46e8a539
+TRACE 2022-06-05 21:37:26 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@495083a0
+TRACE 2022-06-05 21:37:27 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5fd62371
+TRACE 2022-06-05 21:37:27 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@28a0fd6c
+TRACE 2022-06-05 21:37:27 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b62442c
+TRACE 2022-06-05 21:37:27 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@66629f63
+TRACE 2022-06-05 21:37:27 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@841e575
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.processId: 14904 (auto-detected)
+DEBUG 2022-06-05 21:37:27 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-05 21:37:27 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-05 21:37:27 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-05 21:37:27 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-05 21:37:27 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2022-06-05 21:37:47 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-05 21:37:47 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-05 21:37:47 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-05 21:37:47 [#nioEventLoopGroup-3-1]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-05 21:37:47 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-05 21:37:47 [#nioEventLoopGroup-3-1]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-05 21:37:47 [#nioEventLoopGroup-3-1]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7613cd06
+DEBUG 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- Щас клиент передаст файлы (3)
+DEBUG 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- Получены заголовки всех файлов от клиента
+TRACE 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1581446054, filePath='client_storage\1.txt'}
+TRACE 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1583779940, filePath='client_storage\2.txt'}
+TRACE 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1584034846, filePath='client_storage\3.txt'}

@@ -1,14 +1,14 @@
 import lombok.extern.log4j.Log4j2;
-import messages.FileHeader;
 
-import java.io.InputStream;
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 @Log4j2
 public class MySQLService {
 
-    private static int WAITING_FOR_FILE = 1;
+    public enum Status {WAITING_FOR_FILE, DELETED}
+
 
     // JDBC URL, username and password of MySQL server
     private static final String url = "jdbc:mysql://localhost:3306/filebox";
@@ -26,15 +26,13 @@ public class MySQLService {
     private static PreparedStatement psGetFileContent;
     private static final String statementGetFileContent = "SELECT file from files where owner = ? and path = ?;";
     private static PreparedStatement psGetUserFilesList;
-    private static final String statementGetUserFilesList = "select path, hash, last_modified_sec from files where owner = ?;";
+    private static final String statementGetUserFilesList = "select path, last_modified_sec, status from files where owner = ?;";
 
     private static PreparedStatement psCheckSHA;
     private static final String statementCheckSHA = "select sha(file), hash from files where owner = ? and path = ?;";
 
 
-
-
-    public void start() throws MySQLConnectException {
+    public static void start() throws MySQLConnectException {
         try {
             connect();
         } catch (SQLException e) {
@@ -43,7 +41,7 @@ public class MySQLService {
         }
     }
 
-    private void connect() throws SQLException {
+    private static void connect() throws SQLException {
         log.info("Сервис подключается к БД.. ");
         connection = DriverManager.getConnection(url, user, password);
         statement = connection.createStatement();
@@ -51,7 +49,7 @@ public class MySQLService {
 
     }
 
-    private void disconnect() {
+    private static void disconnect() {
         log.info("Отключение от БД");
         try {
             if (statement != null) statement.close();
@@ -87,7 +85,6 @@ public class MySQLService {
         }
 
 
-
         try {
             if (connection != null) connection.close();
         } catch (SQLException e) {
@@ -96,21 +93,20 @@ public class MySQLService {
         log.info("Сервис отключен от БД");
     }
 
-    public void stop() {
+    public static void stop() {
         disconnect();
     }
 
-    public void addFileHeader(String owner, FileHeader fileHeader) {
+    public static void addFileHeader(String owner, FileHeader fileHeader) {
         //log.debug("Добавляем заголовок файла в БД файл " + fileHeader.getFilePath());
         try {
             if (psAddFileHeader == null)
                 psAddFileHeader = connection.prepareStatement(statementAddFileHeader);
-//                                  " INSERT INTO files (owner, path, hash, last_modified_sec, status) values(?, ?, ?, ?, ?);";
+//                                  " INSERT INTO files (owner, path, last_modified_sec, status) values(?, ?, ?, ?);";
             psAddFileHeader.setString(1, owner);
             psAddFileHeader.setString(2, fileHeader.getFilePath().toString());
-            psAddFileHeader.setString(3, fileHeader.getHash());
-            psAddFileHeader.setLong(4, fileHeader.getLastModifiedSeconds());
-            psAddFileHeader.setInt(5, WAITING_FOR_FILE);
+            psAddFileHeader.setLong(3, fileHeader.getLastModifiedSeconds());
+            psAddFileHeader.setString(4, Status.WAITING_FOR_FILE.toString());
             psAddFileHeader.execute();
             log.debug("Добавлен заголовок файла (" + owner + ")" + fileHeader.getFilePath());
         } catch (SQLException e) {
@@ -118,43 +114,40 @@ public class MySQLService {
         }
     }
 
-    public void compareFileList(String owner, FileHeadersList fileHeadersList){
+    public static ArrayList<FileHeader> getDataBaseFileList(String owner) {
+        ArrayList<FileHeader> fileHeadersList = new ArrayList<>();
         try {
             if (psGetUserFilesList == null)
                 psGetUserFilesList = connection.prepareStatement(statementGetUserFilesList);
-//                                 "select path, hash, last_modified_sec from files where owner = ?;";
+//                                 "select path, last_modified_sec, status from files where owner = ?;";
             psGetUserFilesList.setString(1, owner);
+            ResultSet rs = psGetUserFilesList.executeQuery();
 
-            ResultSet rs= psGetUserFilesList.executeQuery();
-
-            while (rs.next()){
+            while (rs.next()) {
                 String path = rs.getString(1);
-                String hash = rs.getString(2);
-                Long lastModified = rs.getLong(3);
-                if (!checkFileInHeadersList(owner, path, hash, lastModified, fileHeadersList)){
-                     //добавить в список отправки клиенту
-                }
+                Long lastModified = rs.getLong(2);
+                boolean status = Status.valueOf(rs.getString(3)) == Status.DELETED ? true : false;
+                //todo флаг удаленного
+                fileHeadersList.add(new FileHeader(lastModified, path, true));
             }
 
-            for (FileHeader fileHeader : fileHeadersList) {
-                addFileHeader(owner, fileHeader);
-            }
-
+            return fileHeadersList;
 
 
         } catch (SQLException e) {
             e.printStackTrace();
+            return null;
         }
     }
 
-    private boolean checkFileInHeadersList(String owner, String path, String hash, Long lastModified, FileHeadersList fileHeadersList){
+    private static boolean checkFileInHeadersList(String owner, String path, String hash, Long lastModified, ArrayList<FileHeader> fileHeadersList) {
 
         Iterator<FileHeader> it = fileHeadersList.iterator();
         while (it.hasNext()) {
-            FileHeader fileHeader= it.next();
-            if (path.equals(fileHeader.getFilePath())){             //если такой файл есть в присланном списке
+            FileHeader fileHeader = it.next();
+            if (path.equals(fileHeader.getFilePath())) {             //если такой файл есть в присланном списке
                 //todo сравнить хэши, время, актуализировать запись в БД или добавить в список отправки (плучения от) клиенту
-                log.debug("Файл уже есть в БД ("+ owner+")"+ path);
+                log.debug("Файл уже есть в БД (" + owner + ")" + path);
                 it.remove();
                 return true;
             }
@@ -164,81 +157,81 @@ public class MySQLService {
     }
 
 
-    public void addFileContent(String owner, String path, InputStream file) {
-        try {
-            if (psAddFileContent == null)
-                psAddFileContent = connection.prepareStatement(statementAddFileContent);
-//                                  "UPDATE files set file = ? where owner = ? and path = ?";
-            psAddFileContent.setBlob(1, file);
-            psAddFileContent.setString(2, owner);
-            psAddFileContent.setString(3, path);
+//    public void addFileContent(String owner, String path, InputStream file) {
+//        try {
+//            if (psAddFileContent == null)
+//                psAddFileContent = connection.prepareStatement(statementAddFileContent);
+////                                  "UPDATE files set file = ? where owner = ? and path = ?";
+//            psAddFileContent.setBlob(1, file);
+//            psAddFileContent.setString(2, owner);
+//            psAddFileContent.setString(3, path);
+//
+//            if (psAddFileContent.executeUpdate() == 1)
+//                log.debug("Добавлено тело файла (" + owner + ")" + path);
+//            else {
+//                log.debug("Ошибка добавления тела файла (" + owner + ")" + path);
+//            }
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//
+//        if (checkFileWithHash(owner,path)){
+//            //todo file status
+//
+//        } else {
+//            //todo : запросить у клиента файл
+//        }
+//
+//    }
 
-            if (psAddFileContent.executeUpdate() == 1)
-                log.debug("Добавлено тело файла (" + owner + ")" + path);
-            else {
-                log.debug("Ошибка добавления тела файла (" + owner + ")" + path);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+//    public InputStream getFileContent(String owner, String path) {
+//        try {
+//            if (psGetFileContent == null)
+//                psGetFileContent = connection.prepareStatement(statementGetFileContent);
+////                                  "SELECT file from files where owner = ? and path = ?;";
+//            psGetFileContent.setString(1, owner);
+//            psGetFileContent.setString(2, path);
+//            ResultSet rs = psGetFileContent.executeQuery();
+//
+//            if (rs.next()) {
+//                if (rs.getBlob(1) == null) {
+//                    log.warn("BLOB = NULL для файла (" + owner + ")" + path);
+//                    return null;
+//                }
+//                log.debug("Получено из БД тело файла (" + owner + ")" + path);
+//                return rs.getBlob(1).getBinaryStream();
+//            } else {
+//                log.warn("Ошибка получениния файла из БД. Запись (" + owner + ")" + path + " не найдена");
+//            }
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        return null;
+//    }
 
-        if (checkFileWithHash(owner,path)){
-            //todo file status
-
-        } else {
-            //todo : запросить у клиента файл
-        }
-
-    }
-
-    public InputStream getFileContent(String owner, String path) {
-        try {
-            if (psGetFileContent == null)
-                psGetFileContent = connection.prepareStatement(statementGetFileContent);
-//                                  "SELECT file from files where owner = ? and path = ?;";
-            psGetFileContent.setString(1, owner);
-            psGetFileContent.setString(2, path);
-            ResultSet rs = psGetFileContent.executeQuery();
-
-            if (rs.next()) {
-                if (rs.getBlob(1) == null) {
-                    log.warn("BLOB = NULL для файла (" + owner + ")" + path);
-                    return null;
-                }
-                log.debug("Получено из БД тело файла (" + owner + ")" + path);
-                return rs.getBlob(1).getBinaryStream();
-            } else {
-                log.warn("Ошибка получениния файла из БД. Запись (" + owner + ")" + path + " не найдена");
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    private boolean checkFileWithHash(String owner, String path){
-        log.debug("Проверка файла по ХЭШУ ("+owner+")"+path+" ...");
-        try {
-            if (psCheckSHA == null)
-                psCheckSHA = connection.prepareStatement(statementCheckSHA);
-//                                      "select sha(file), hash from files where owner = ? and path = ?;";
-            psGetFileContent.setString(1, owner);
-            psGetFileContent.setString(2, path);
-
-            ResultSet rs = psGetFileContent.executeQuery();
-
-            if (rs.next()) {
-                if (rs.getString(1).equals(rs.getString(2))){
-                    log.debug("Файл ("+owner+")"+path+" записан корректно");
-                    return true;
-                }
-            } else {
-                log.warn("Хэш файла (" + owner + ")" + path + " не совпадает с записанным!");
-                return false;
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return false;
-    }
+//    private boolean checkFileWithHash(String owner, String path){
+//        log.debug("Проверка файла по ХЭШУ ("+owner+")"+path+" ...");
+//        try {
+//            if (psCheckSHA == null)
+//                psCheckSHA = connection.prepareStatement(statementCheckSHA);
+////                                      "select sha(file), hash from files where owner = ? and path = ?;";
+//            psGetFileContent.setString(1, owner);
+//            psGetFileContent.setString(2, path);
+//
+//            ResultSet rs = psGetFileContent.executeQuery();
+//
+//            if (rs.next()) {
+//                if (rs.getString(1).equals(rs.getString(2))){
+//                    log.debug("Файл ("+owner+")"+path+" записан корректно");
+//                    return true;
+//                }
+//            } else {
+//                log.warn("Хэш файла (" + owner + ")" + path + " не совпадает с записанным!");
+//                return false;
+//            }
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        return false;
+//    }
 }

@@ -1,22 +1,23 @@
-package messages;
+import lombok.Getter;
+
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
+
 public class FileMessage extends AbstractMessage {
+    @Getter
     private String filename;
+    @Getter
     private byte[] data;
 
-    public String getFilename() {
-        return filename;
-    }
+    @Getter
+    private String hash;
 
-    public byte[] getData() {
-        return data;
-    }
 
     public FileMessage(Path path) throws IOException {
+        hash =  HashUtil.getFileHash(path);
 
         filename = path.toString();
         System.out.println(filename);

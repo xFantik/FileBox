@@ -1,5 +1,3 @@
-package messages;
-
 public class FileRequest extends AbstractMessage {
     private String filename;
 

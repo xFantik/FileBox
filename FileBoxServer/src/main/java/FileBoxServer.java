@@ -15,11 +15,11 @@ import java.io.*;
 @Log4j2
 public class FileBoxServer {
     private int maxObjectSize = 50 * 1024 * 1024;
-    private MySQLService mySQLService;
-    FileHeadersList fileHeadersList = new FileHeadersList();
+
+
 
     public static void main(String[] args) {
-        new FileBoxServer(new MySQLService()).start();
+        new FileBoxServer().start();
 
     }
 
@@ -94,24 +94,23 @@ public class FileBoxServer {
     }
 
 
-    public FileBoxServer(MySQLService m) {
-        mySQLService = m;
+
+
+    public void start() {
+        try {
+            MySQLService.start();
+        } catch (MySQLConnectException e) {
+            log.throwing(e);
+            log.warn("Остановка сервера");
+            shutdown();
+            System.exit(-1);
+        }
         try {
             run();
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
 
-    public void start() {
-        try {
-            mySQLService.start();
-        } catch (MySQLConnectException e) {
-            log.throwing(e);
-            log.warn("Остановка сервера");
-            System.exit(-1);
-        }
-        testSteps();
     }
 //
 //    private void deserializeFromFile() {
@@ -127,7 +126,7 @@ public class FileBoxServer {
 //        log.trace("Отключение клиентов..");
 //        executorService.shutdownNow();
         log.trace("Остановка сервиса БД");
-        mySQLService.stop();
+        MySQLService.stop();
         log.info("Server stopped");
     }
 
