@@ -5,7 +5,7 @@
     </Properties>
 
     <Appenders>
-        <RollingFile name="File" fileName="logs/FileBoxServer.log"
+        <RollingFile name="File" fileName="logs/ru.bp.fileBoxServer.FileBoxServer.log"
                      filePattern="logs/NetChatServer-%d{yyyy-MM-dd_HH-mm-ss}.log.zip">
             <PatternLayout pattern="%-5p %d{yyyy-MM-dd HH:mm:ss} [#%t]- %m%n"/>
             <Policies>

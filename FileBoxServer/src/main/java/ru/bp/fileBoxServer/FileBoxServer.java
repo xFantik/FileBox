@@ -1,3 +1,5 @@
+package ru.bp.fileBoxServer;
+
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -9,8 +11,6 @@ import io.netty.handler.codec.serialization.ClassResolvers;
 import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
 import lombok.extern.log4j.Log4j2;
-
-import java.io.*;
 
 @Log4j2
 public class FileBoxServer {
@@ -50,22 +50,7 @@ public class FileBoxServer {
 
     private void testSteps(){
 
-        //
-//        deserializeFromFile();
 
-
-//        mySQLService.compareFileList("fant", fileHeadersList);
-
-
-
-
-        //todo:            ЗАПИСЬ Тела файла в БЛОБ
-//        try (InputStream is = Files.newInputStream(Paths.get(".\\pom.xml"))) {
-//            mySQLService.addFileContent("fant", ".\\pom.xml", is);
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
 
 //        todo:              ПОЛУЧЕНИЕ тела файла
 //        InputStream is = mySQLService.getFileContent("fant", ".\\pom.xml");
@@ -83,10 +68,7 @@ public class FileBoxServer {
 //        }
 
 
-//     todo:               Установка времени изменения файла
 
-//        FileTime t = FileTime.from(1650972661, TimeUnit.SECONDS);
-//        Files.setLastModifiedTime(new File(".\\pom.xml").toPath(),  t);
 
 
         shutdown();
@@ -112,14 +94,7 @@ public class FileBoxServer {
         }
 
     }
-//
-//    private void deserializeFromFile() {
-//        try (var ois = new ObjectInputStream(new FileInputStream("filelist"))) {
-//            fileHeadersList = (FileHeadersList) ois.readObject();
-//        } catch (IOException | ClassNotFoundException e) {
-//            e.printStackTrace();
-//        }
-//    }
+
 
     private void shutdown() {
         log.trace("Остановка сервера..");

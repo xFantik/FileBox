@@ -1,5 +1,7 @@
+package ru.pb.fileBoxCommon.messages;
+
 public class InfoMessage extends AbstractMessage{
-    enum MessageType {ALL_FILES_SENT};
+    public enum MessageType {ALL_FILES_SENT};
     private MessageType messageType;
 
 

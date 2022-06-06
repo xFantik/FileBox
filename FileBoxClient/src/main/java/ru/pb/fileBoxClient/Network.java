@@ -1,5 +1,8 @@
+package ru.pb.fileBoxClient;
+
 import io.netty.handler.codec.serialization.ObjectDecoderInputStream;
 import io.netty.handler.codec.serialization.ObjectEncoderOutputStream;
+import ru.pb.fileBoxCommon.messages.AbstractMessage;
 
 import java.io.IOException;
 import java.net.Socket;

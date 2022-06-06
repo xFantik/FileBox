@@ -1,6 +1,6 @@
 # Project exclude paths
-/FileBoxClient/target/
+/ru.pb.fileBoxClient.FileBoxClient/target/
 /FileBoxCommon/target/
-/FileBoxServer/target/
+/ru.bp.fileBoxServer.FileBoxServer/target/
 /client_storage/
 /server_storage/

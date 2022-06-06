@@ -1,3 +1,5 @@
+package ru.pb.fileBoxCommon.messages;
+
 public class FileRequest extends AbstractMessage {
     private String filename;
 

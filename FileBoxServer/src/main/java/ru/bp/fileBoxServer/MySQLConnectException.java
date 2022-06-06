@@ -1,3 +1,4 @@
+package ru.bp.fileBoxServer;
 
 public class MySQLConnectException extends Exception {
     public MySQLConnectException() {

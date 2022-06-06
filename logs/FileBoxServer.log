@@ -3490,3 +3490,459 @@ DEBUG 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- Получены загол�
 TRACE 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1581446054, filePath='client_storage\1.txt'}
 TRACE 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1583779940, filePath='client_storage\2.txt'}
 TRACE 2022-06-05 21:37:48 [#nioEventLoopGroup-3-1]- FileHeader{lastModifiedSeconds=1584034846, filePath='client_storage\3.txt'}
+INFO  2022-06-05 22:33:08 [#main]- Сервис подключается к БД.. 
+INFO  2022-06-05 22:33:09 [#main]- Сервис подключён к БД (jdbc:mysql://localhost:3306/filebox)
+DEBUG 2022-06-05 22:33:09 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-05 22:33:09 [#main]- Java version: 17
+DEBUG 2022-06-05 22:33:09 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-05 22:33:09 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-05 22:33:09 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-05 22:33:09 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-05 22:33:09 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 22:33:09 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-05 22:33:09 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 22:33:09 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-05 22:33:09 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-05 22:33:09 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-05 22:33:09 [#main]- Platform: Windows
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-05 22:33:09 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-05 22:33:09 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b58f754
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1e044120
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2cf23c81
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3624da92
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@35fe2125
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@94f6bfb
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@34645867
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2484f433
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c345c5f
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6b5966e1
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65e61854
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1568159
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4fcee388
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6f80fafe
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3af17be2
+TRACE 2022-06-05 22:33:09 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@f9879ac
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.processId: 12732 (auto-detected)
+DEBUG 2022-06-05 22:33:09 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-05 22:33:09 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-05 22:33:09 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-05 22:33:09 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-05 22:33:09 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+WARN  2022-06-05 22:33:17 [#nioEventLoopGroup-3-1]- Failed to initialize a channel. Closing: [id: 0x60774ffa, L:/127.0.0.1:8189 - R:/127.0.0.1:51408]
+java.lang.IllegalArgumentException: No enum constant MySQLService.Status.1
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
+	at MySQLService$Status.valueOf(MySQLService.java:10) ~[classes/:?]
+	at MySQLService.getDataBaseFileList(MySQLService.java:129) ~[classes/:?]
+	at MainHandler.<init>(MainHandler.java:24) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:36) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:33) ~[classes/:?]
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:938) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+WARN  2022-06-05 22:34:36 [#nioEventLoopGroup-3-2]- Failed to initialize a channel. Closing: [id: 0x6e46258d, L:/127.0.0.1:8189 - R:/127.0.0.1:51414]
+java.lang.IllegalArgumentException: No enum constant MySQLService.Status.1
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
+	at MySQLService$Status.valueOf(MySQLService.java:10) ~[classes/:?]
+	at MySQLService.getDataBaseFileList(MySQLService.java:129) ~[classes/:?]
+	at MainHandler.<init>(MainHandler.java:24) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:36) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:33) ~[classes/:?]
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:938) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+INFO  2022-06-05 22:34:55 [#main]- Сервис подключается к БД.. 
+INFO  2022-06-05 22:34:55 [#main]- Сервис подключён к БД (jdbc:mysql://localhost:3306/filebox)
+DEBUG 2022-06-05 22:34:55 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-05 22:34:55 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-05 22:34:55 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-05 22:34:55 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-05 22:34:56 [#main]- Java version: 17
+DEBUG 2022-06-05 22:34:56 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-05 22:34:56 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-05 22:34:56 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-05 22:34:56 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-05 22:34:56 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 22:34:56 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-05 22:34:56 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-05 22:34:56 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-05 22:34:56 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-05 22:34:56 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-05 22:34:56 [#main]- Platform: Windows
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-05 22:34:56 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-05 22:34:56 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b58f754
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1e044120
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2cf23c81
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3624da92
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@35fe2125
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@94f6bfb
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@34645867
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2484f433
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c345c5f
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6b5966e1
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65e61854
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1568159
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4fcee388
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6f80fafe
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3af17be2
+TRACE 2022-06-05 22:34:56 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@f9879ac
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.processId: 14024 (auto-detected)
+DEBUG 2022-06-05 22:34:56 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-05 22:34:56 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-05 22:34:56 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-05 22:34:56 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-05 22:34:56 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+WARN  2022-06-05 22:35:08 [#nioEventLoopGroup-3-1]- Failed to initialize a channel. Closing: [id: 0xd487baf0, L:/127.0.0.1:8189 - R:/127.0.0.1:51427]
+java.lang.IllegalArgumentException: No enum constant MySQLService.Status.1
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
+	at MySQLService$Status.valueOf(MySQLService.java:10) ~[classes/:?]
+	at MySQLService.getDataBaseFileList(MySQLService.java:129) ~[classes/:?]
+	at MainHandler.<init>(MainHandler.java:24) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:36) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:33) ~[classes/:?]
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:938) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+INFO  2022-06-06 09:58:37 [#main]- Сервис подключается к БД.. 
+INFO  2022-06-06 09:58:38 [#main]- Сервис подключён к БД (jdbc:mysql://localhost:3306/filebox)
+DEBUG 2022-06-06 09:58:38 [#main]- Using SLF4J as the default logging framework
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.eventLoopThreads: 8
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.noUnsafe: false
+DEBUG 2022-06-06 09:58:38 [#main]- Java version: 17
+DEBUG 2022-06-06 09:58:38 [#main]- sun.misc.Unsafe.theUnsafe: available
+DEBUG 2022-06-06 09:58:38 [#main]- sun.misc.Unsafe.copyMemory: available
+DEBUG 2022-06-06 09:58:38 [#main]- sun.misc.Unsafe.storeFence: available
+DEBUG 2022-06-06 09:58:38 [#main]- java.nio.Buffer.address: available
+DEBUG 2022-06-06 09:58:38 [#main]- direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-06 09:58:38 [#main]- java.nio.Bits.unaligned: available, true
+DEBUG 2022-06-06 09:58:38 [#main]- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d127a61
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:83) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:182) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:38) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:60) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:97) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:92) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:73) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:53) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:45) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at FileBoxServer.run(FileBoxServer.java:27) [classes/:?]
+	at FileBoxServer.start(FileBoxServer.java:109) [classes/:?]
+	at FileBoxServer.main(FileBoxServer.java:22) [classes/:?]
+DEBUG 2022-06-06 09:58:38 [#main]- java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG 2022-06-06 09:58:38 [#main]- sun.misc.Unsafe: available
+DEBUG 2022-06-06 09:58:38 [#main]- maxDirectMemory: 4257218560 bytes (maybe)
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.tmpdir: C:\Users\7636~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2022-06-06 09:58:38 [#main]- Platform: Windows
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2022-06-06 09:58:38 [#main]- java.nio.ByteBuffer.cleaner(): available
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.noPreferDirect: false
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.noKeySetOptimization: false
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2022-06-06 09:58:38 [#main]- org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b58f754
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1e044120
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2cf23c81
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3624da92
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@35fe2125
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@94f6bfb
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@34645867
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2484f433
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c345c5f
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6b5966e1
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65e61854
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1568159
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4fcee388
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6f80fafe
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3af17be2
+TRACE 2022-06-06 09:58:38 [#main]- instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@f9879ac
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.processId: 12948 (auto-detected)
+DEBUG 2022-06-06 09:58:38 [#main]- -Djava.net.preferIPv4Stack: false
+DEBUG 2022-06-06 09:58:38 [#main]- -Djava.net.preferIPv6Addresses: false
+DEBUG 2022-06-06 09:58:38 [#main]- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2022-06-06 09:58:38 [#main]- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.machineId: 80:89:a6:ff:fe:5d:48:58 (auto-detected)
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.leakDetection.level: simple
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.numHeapArenas: 8
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.numDirectArenas: 8
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.pageSize: 8192
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.maxOrder: 9
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.chunkSize: 4194304
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.allocator.type: pooled
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2022-06-06 09:58:38 [#main]- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+WARN  2022-06-06 10:01:01 [#nioEventLoopGroup-3-1]- Failed to initialize a channel. Closing: [id: 0xd26d9061, L:/127.0.0.1:8189 - R:/127.0.0.1:50531]
+java.lang.IllegalArgumentException: No enum constant MySQLService.Status.1
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
+	at MySQLService$Status.valueOf(MySQLService.java:10) ~[classes/:?]
+	at MySQLService.getDataBaseFileList(MySQLService.java:129) ~[classes/:?]
+	at MainHandler.<init>(MainHandler.java:24) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:36) ~[classes/:?]
+	at FileBoxServer$1.initChannel(FileBoxServer.java:33) ~[classes/:?]
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:938) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503) [netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- -Dio.netty.recycler.ratio: 8
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- -Dio.netty.recycler.chunkSize: 32
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- -Dio.netty.recycler.blocking: false
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- -Dio.netty.buffer.checkAccessible: true
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- -Dio.netty.buffer.checkBounds: true
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c97fa5d
+TRACE 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- Получен заголовок от клиента: FileMessage{filePath='client_storage\1.txt', lastModifiedSeconds=1581446054}
+TRACE 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- Получен заголовок от клиента: FileMessage{filePath='client_storage\2.txt', lastModifiedSeconds=1583779940}
+TRACE 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- Получен заголовок от клиента: FileMessage{filePath='client_storage\3.txt', lastModifiedSeconds=1584034846}
+DEBUG 2022-06-06 10:46:30 [#nioEventLoopGroup-3-2]- Инфо: Получены все файлы от клиента. Ищем, что не хватает
+TRACE 2022-06-06 10:47:49 [#nioEventLoopGroup-3-3]- Получен заголовок от клиента: FileMessage{filePath='client_storage\1.txt', lastModifiedSeconds=1581446054}
+TRACE 2022-06-06 10:47:49 [#nioEventLoopGroup-3-3]- Получен заголовок от клиента: FileMessage{filePath='client_storage\2.txt', lastModifiedSeconds=1583779940}
+TRACE 2022-06-06 10:47:49 [#nioEventLoopGroup-3-3]- Получен заголовок от клиента: FileMessage{filePath='client_storage\3.txt', lastModifiedSeconds=1584034846}
+DEBUG 2022-06-06 10:47:49 [#nioEventLoopGroup-3-3]- Инфо: Получены все файлы от клиента. Ищем, что не хватает
