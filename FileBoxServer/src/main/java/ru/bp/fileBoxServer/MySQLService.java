@@ -38,8 +38,8 @@ public class MySQLService {
     private static PreparedStatement psGetUserFilesList;
     private static final String statementGetUserFilesList = "select path, last_modified_sec, status from files where owner = ?;";
 
-    private static PreparedStatement psCheckSHA;
-    private static final String statementCheckSHA = "select sha(file), hash from files where owner = ? and path = ?;";
+    private static PreparedStatement psGetHash;
+    private static final String statementGetHash = "select hash from files where owner = ? and path = ?;";
 
 
     public static void start() throws MySQLConnectException {
@@ -89,7 +89,7 @@ public class MySQLService {
             e.printStackTrace();
         }
         try {
-            if (psCheckSHA != null) psCheckSHA.close();
+            if (psGetHash != null) psGetHash.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -261,29 +261,27 @@ public class MySQLService {
     }
 
 
-//    private boolean checkFileWithHash(String owner, String path){
-//        log.debug("Проверка файла по ХЭШУ ("+owner+")"+path+" ...");
-//        try {
-//            if (psCheckSHA == null)
-//                psCheckSHA = connection.prepareStatement(statementCheckSHA);
-////                                      "select sha(file), hash from files where owner = ? and path = ?;";
-//            psGetFileContent.setString(1, owner);
-//            psGetFileContent.setString(2, path);
-//
-//            ResultSet rs = psGetFileContent.executeQuery();
-//
-//            if (rs.next()) {
-//                if (rs.getString(1).equals(rs.getString(2))){
-//                    log.debug("Файл ("+owner+")"+path+" записан корректно");
-//                    return true;
-//                }
-//            } else {
-//                log.warn("Хэш файла (" + owner + ")" + path + " не совпадает с записанным!");
-//                return false;
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//        return false;
-//    }
+    public static String getHash(String owner, String path) {
+        log.debug("Проверка файла по ХЭШУ (" + owner + ")" + path + " ...");
+        try {
+            if (psGetHash == null)
+                psGetHash = connection.prepareStatement(statementGetHash);
+//                                      "select hash from files where owner = ? and path = ?;";
+            psGetHash.setString(1, owner);
+            psGetHash.setString(2, path);
+
+            ResultSet rs = psGetHash.executeQuery();
+
+            if (rs.next()) {
+                return rs.getString(1);
+
+            } else {
+                log.warn("Файл (" + owner + ")" + path + " не найден в БД!");
+                return null;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 }

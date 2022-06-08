@@ -1,6 +1,7 @@
 package ru.pb.fileBoxCommon.messages;
 
 import lombok.Getter;
+import lombok.Setter;
 import ru.pb.fileBoxCommon.utils.HashUtil;
 
 
@@ -16,6 +17,7 @@ public class FileMessage extends AbstractMessage {
     private String filePath;
 
     @Getter
+    @Setter
     private long lastModifiedSeconds;
 
     @Getter
@@ -37,6 +39,16 @@ public class FileMessage extends AbstractMessage {
             data = Files.readAllBytes(path);
         }
     }
+
+    public void updateFile(long lastModifiedSeconds, String hash, Path pathOnServer) throws IOException{
+        this.lastModifiedSeconds = lastModifiedSeconds;
+        this.hash= hash;
+        data = Files.readAllBytes(pathOnServer);
+
+
+    }
+
+
 
     public FileMessage(long lastModifiedSeconds, String filePath) {
         this.lastModifiedSeconds = lastModifiedSeconds;

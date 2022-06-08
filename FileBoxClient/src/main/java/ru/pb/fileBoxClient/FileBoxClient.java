@@ -38,7 +38,6 @@ public class FileBoxClient {
                     if (am instanceof FileRequest) {
                         FileMessage fm = new FileMessage(Paths.get(rootDirectory, ((FileRequest) am).getFilename()), true);
                         Network.sendMsg(fm);
-
                     }
                 }
             } catch (ClassNotFoundException | IOException e) {

@@ -72,8 +72,10 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
                         log.debug(userName + ": Устаревший файл на сервере: " + fm);
                         ctx.writeAndFlush(new FileRequest(fm.getFilePath()));
                     } else if (fm.getLastModifiedSeconds() < fileTimeOnServer) {
-                        //todo отправка клиенту новой версии файла (или команду на удаление)
                         addHeaderToList(fm);
+                        fm.updateFile(fileTimeOnServer, MySQLService.getHash(userName, fm.getFilePath()), Paths.get(rootDirectory, String.valueOf(MySQLService.getFileID(userName, fm.getFilePath()))));
+                        ctx.writeAndFlush(fm);
+                        //todo отправка клиенту новой версии файла (или команду на удаление)
 
                     } else {
                         addHeaderToList(fm);
