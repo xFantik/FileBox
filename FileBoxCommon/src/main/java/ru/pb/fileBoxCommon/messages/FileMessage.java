@@ -2,7 +2,7 @@ package ru.pb.fileBoxCommon.messages;
 
 import lombok.Getter;
 import lombok.Setter;
-import ru.pb.fileBoxCommon.utils.HashUtil;
+import ru.pb.fileBoxCommon.utils.FileUtil;
 
 
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class FileMessage extends AbstractMessage {
         lastModifiedSeconds = attr.lastModifiedTime().to(TimeUnit.SECONDS);
         System.out.println(filePath);
         if (withData) {
-            hash = HashUtil.getFileHash(path);
+            hash = FileUtil.getFileHash(path);
             data = Files.readAllBytes(path);
         }
     }
@@ -71,5 +71,9 @@ public class FileMessage extends AbstractMessage {
 
     public boolean equals(FileMessage obj) {
         return filePath.equals(obj.getFilePath());
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted=deleted;
     }
 }

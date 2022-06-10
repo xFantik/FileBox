@@ -1,14 +1,19 @@
 package ru.pb.fileBoxCommon.utils;
 
+import ru.pb.fileBoxCommon.messages.FileMessage;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.nio.file.attribute.FileTime;
 import java.security.DigestInputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.concurrent.TimeUnit;
 
-public class HashUtil {
+public class FileUtil {
     public static String getFileHash(Path path) {
         MessageDigest md = null;
         try {
@@ -41,4 +46,16 @@ public class HashUtil {
         }
         return new String(hexChars);
     }
+
+    public static void setFileTime(Path localPath, long timeSeconds) throws IOException {
+        FileTime time = FileTime.from(timeSeconds, TimeUnit.SECONDS);
+        Files.setLastModifiedTime(localPath, time);
+    }
+
+    public static long getFileTime(Path path) throws IOException {
+        BasicFileAttributes attr = Files.readAttributes(path, BasicFileAttributes.class);
+        return attr.lastModifiedTime().to(TimeUnit.SECONDS);
+    }
+
+
 }

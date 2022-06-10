@@ -51,26 +51,6 @@ public class FileBoxServer {
     private void testSteps(){
 
 
-
-//        todo:              ПОЛУЧЕНИЕ тела файла
-//        InputStream is = mySQLService.getFileContent("fant", ".\\pom.xml");
-//        if (is!=null) {
-//            int b;
-//            try {
-//                while ((b = is.read()) != -1) {
-//                    System.out.print((char) b);
-//
-//                }
-//                System.out.println();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-
-
-
-
-
         shutdown();
 
     }

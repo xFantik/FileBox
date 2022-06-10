@@ -22,7 +22,6 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
 
     private static String rootDirectory = "server_storage";
     ExecutorService executorService;
-    private int waitingFileCountInList;
     private String userName = "fant";
 
     private List<FileMessage> filesHeadersListOnClient;
@@ -53,6 +52,10 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
                     log.debug("Инфо: Получены все файлы от клиента. Ищем, что не хватает");
                     //todo поиск файлов, которых нет у клиента
 
+                }
+                case DELETE_FILE -> {
+                    log.debug("Пришел запрос на удаление файла "+ ((InfoMessage) msg).getMessage());
+                    //todo удаление файла с ФС, запись в базу метки об удалении
                 }
             }
         }
