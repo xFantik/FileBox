@@ -40,7 +40,7 @@ public class FileBoxServer {
                         }
                     });
 //                    .childOption(ChannelOption.SO_KEEPALIVE, true);
-            ChannelFuture future = b.bind(8189).sync();
+            ChannelFuture future = b.bind(PropertyReader.getInstance().getPort()).sync();
             future.channel().closeFuture().sync();
         } finally {
             mainGroup.shutdownGracefully();
@@ -59,14 +59,14 @@ public class FileBoxServer {
 
 
     public void start() {
-        try {
-            MySQLService.start();
-        } catch (MySQLConnectException e) {
-            log.throwing(e);
-            log.warn("Остановка сервера");
-            shutdown();
-            System.exit(-1);
-        }
+//        try {
+//            MySQLService.start();
+//        } catch (MySQLConnectException e) {
+//            log.throwing(e);
+//            log.warn("Остановка сервера");
+//            shutdown();
+//            System.exit(-1);
+//        }
         try {
             run();
         } catch (Exception e) {

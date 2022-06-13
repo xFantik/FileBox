@@ -4,13 +4,16 @@ import ru.pb.fileBoxCommon.messages.FileMessage;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileTime;
 import java.security.DigestInputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class FileUtil {
@@ -57,5 +60,21 @@ public class FileUtil {
         return attr.lastModifiedTime().to(TimeUnit.SECONDS);
     }
 
+    public static ArrayList<FileMessage> getFileList(Path path){
+        int root_count  = (path.getNameCount());
+        ArrayList<FileMessage> fms = new ArrayList<>();
+        try {
+            Files.walkFileTree(path, new SimpleFileVisitor<Path>() {
+                @Override
+                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+                    fms.add(new FileMessage(file.subpath(0,root_count), file.subpath(root_count, file.getNameCount()), false));
+                    return super.visitFile(file, attrs);
+                }
+            });
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return fms;
+    }
 
 }

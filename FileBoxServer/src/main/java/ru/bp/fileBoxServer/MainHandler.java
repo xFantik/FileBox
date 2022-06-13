@@ -3,9 +3,8 @@ package ru.bp.fileBoxServer;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import lombok.extern.log4j.Log4j2;
-import ru.pb.fileBoxCommon.messages.FileMessage;
-import ru.pb.fileBoxCommon.messages.FileRequest;
-import ru.pb.fileBoxCommon.messages.InfoMessage;
+import ru.pb.fileBoxCommon.messages.*;
+import ru.pb.fileBoxCommon.utils.FileUtil;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -20,42 +19,64 @@ import java.util.concurrent.Executors;
 @Log4j2
 public class MainHandler extends ChannelInboundHandlerAdapter {
 
-    private static String rootDirectory = "server_storage";
-    ExecutorService executorService;
+    private static String rootDirectory;
+    private ExecutorService executorService;
     private String userName = "fant";
+    private Path userStorage;
 
     private List<FileMessage> filesHeadersListOnClient;
     private List<FileMessage> filesHeadersListOnServer;
 
-    public MainHandler() {
-        System.out.println("СОЗДАН Экзекьютор");
-        this.executorService = Executors.newSingleThreadExecutor();
-        filesHeadersListOnServer = MySQLService.getDataBaseFileList(userName);
-        filesHeadersListOnClient = new ArrayList<>();
+    static {
+        rootDirectory = PropertyReader.getInstance().getStoragePath();
+        try {
+            Files.createDirectories(Path.of(rootDirectory));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
+    public MainHandler() throws IOException {
+        this.executorService = Executors.newSingleThreadExecutor();
+        userStorage = Paths.get(rootDirectory, userName);
+        Files.createDirectories(userStorage);
+        filesHeadersListOnServer = FileUtil.getFileList(userStorage);
+        filesHeadersListOnClient = new ArrayList<>();
     }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws MySQLConnectException, IOException {
-//        if (msg instanceof FileRequest) {
-//            FileRequest fr = (FileRequest) msg;
-//            if (Files.exists(Paths.get("server_storage/", userName, fr.getFilename()))) {
-//                FileMessage fm = new FileMessage(Paths.get("server_storage/", userName, fr.getFilename()), true);
-//                ctx.writeAndFlush(fm);
-//            }
-//        }
+        if (msg instanceof FileHeaderList) {
+            filesHeadersListOnClient = ((FileHeaderList) msg).getFileList();
+            updateFileList(ctx);
 
+        }
         if (msg instanceof InfoMessage) {
             InfoMessage.MessageType action = ((InfoMessage) msg).getMessageType();
             switch (action) {
-                case ALL_FILES_SENT -> {
+                case ALL_FILES_SENT -> {    //уже не нужно
                     log.debug("Инфо: Получены все файлы от клиента. Ищем, что не хватает");
-                    //todo поиск файлов, которых нет у клиента
-
+                    for (FileMessage fileMessageOnServ : filesHeadersListOnServer) {
+                        boolean find = false;
+                        for (FileMessage fileMessageOnClient : filesHeadersListOnClient) {
+                            if (fileMessageOnClient.equals(fileMessageOnServ)) {
+                                find = true;
+                                break;
+                            }
+                        }
+                        if (!find) {
+                            FileMessage fileMessage = new FileMessage(userStorage, fileMessageOnServ.getFilePath(), true);
+                            log.debug("Запрашиваем у " + userName + " файл " + fileMessage.getFilePath().toString());
+                            ctx.writeAndFlush(fileMessage);
+                        }
+                    }
+                    filesHeadersListOnClient.clear();
                 }
                 case DELETE_FILE -> {
-                    log.debug("Пришел запрос на удаление файла "+ ((InfoMessage) msg).getMessage());
-                    //todo удаление файла с ФС, запись в базу метки об удалении
+                    log.debug("Пришел запрос на удаление файла " + ((InfoMessage) msg).getMessage());
+                    Path p = userStorage.resolve(((InfoMessage) msg).getMessage());
+                    p.toFile().delete();
+                    //todo запись в базу метки об удалении
                 }
             }
         }
@@ -63,52 +84,42 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
 
         if (msg instanceof FileMessage) {
             FileMessage fm = (FileMessage) msg;
+            Path serverFilePath = userStorage.resolve(fm.getFilePath());
             if (fm.getHash() == null) {                     // Если приехал только заголовок
                 log.trace(userName + ": Получен заголовок от клиента: " + fm);
-
-                try {
-                    long fileTimeOnServer = MySQLService.getFileTime(userName, fm.getFilePath());
-
-                    System.out.println(fileTimeOnServer);
-                    System.out.println(fm.getLastModifiedSeconds());
+                if (serverFilePath.toFile().exists()) {             //если файл существует
+                    long fileTimeOnServer = FileUtil.getFileTime(serverFilePath);
+//                    System.out.println(" время файла в заголовке: "+ fm.getLastModifiedSeconds()+"\n              на сервере: "+ fileTimeOnServer);
                     if (fm.getLastModifiedSeconds() > fileTimeOnServer) {
-                        log.debug(userName + ": Устаревший файл на сервере: " + fm);
-                        ctx.writeAndFlush(new FileRequest(fm.getFilePath()));
+                        log.debug("Запросили у " + userName + " " + fm.getFilePath() + " (устаревший файл на сервере)");
+                        ctx.writeAndFlush(new FileRequest(fm.getFilePath().toString()));
                     } else if (fm.getLastModifiedSeconds() < fileTimeOnServer) {
+                        log.debug("Отправили " + userName + " " + fm.getFilePath() + " (устаревший файл на клиенте)");
+
                         addHeaderToList(fm);
-                        fm.updateFile(fileTimeOnServer, MySQLService.getHash(userName, fm.getFilePath()), Paths.get(rootDirectory, String.valueOf(MySQLService.getFileID(userName, fm.getFilePath()))));
-                        ctx.writeAndFlush(fm);
+                        FileMessage fileMessage = new FileMessage(userStorage, fm.getFilePath(), true);
+                        ctx.writeAndFlush(fileMessage);
+
                         //todo отправка клиенту новой версии файла (или команду на удаление)
 
                     } else {
                         addHeaderToList(fm);
                     }
 
-                } catch (DBFileNotFoundException e) { //файл в БД не найден
-                    MySQLService.addFileHeader(userName, fm);
-                    log.debug("Запросили у "+userName+" "+ fm.getFilePath());
-                    ctx.writeAndFlush(new FileRequest(fm.getFilePath()));
+                } else {
+                    log.debug("Запросили у " + userName + " " + fm.getFilePath() + " (файл отсутсвует на сервере)");
+                    ctx.writeAndFlush(new FileRequest(fm.getFilePath().toString()));
+
 
                 }
             } else {                                                  //если приехало тело файла
 
                 log.debug(userName + ": Пришли данные файла: " + fm.getFilePath());
-
-                long id=0;
-                try {
-                    Path p = Paths.get(fm.getFilePath());
-                    id = MySQLService.getFileID(userName, p.subpath(1,p.getNameCount()).toString());
-                } catch (DBFileNotFoundException e) {
-                    e.printStackTrace();
-                }
-
-                Path localPath = Paths.get(rootDirectory, String.valueOf(id));
-                Files.write(localPath, fm.getData(), StandardOpenOption.CREATE);
-
+                Files.createDirectories(serverFilePath.subpath(0, serverFilePath.getNameCount() - 1));
+                Files.write(serverFilePath, fm.getData(), StandardOpenOption.CREATE);
+                FileUtil.setFileTime(serverFilePath, fm.getLastModifiedSeconds());
 
                 //todo проверить хэш
-
-                MySQLService.addFileSuccess(id, fm.getHash(), fm.getLastModifiedSeconds());
 
 
             }
@@ -132,5 +143,47 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         cause.printStackTrace();
         ctx.close();
+    }
+
+
+    private void updateFileList(ChannelHandlerContext ctx) throws IOException {
+
+        for (FileMessage newFileMessage : filesHeadersListOnClient) {
+            if (!findHeaderInOldFileList(ctx, newFileMessage)) {
+                ctx.writeAndFlush(new FileRequest(newFileMessage.getFilePath().toString()));
+//                readAndSendFile(ctx, userStorage, newFileMessage.getFilePath());
+            }
+        }
+
+        //todo поискать в базе удаленные файлы, чтобы сообщить клиентк
+        for (FileMessage fileMessage : filesHeadersListOnServer) {
+            ctx.writeAndFlush(new FileRequest(fileMessage.getFilePath().toString()));
+                    }
+
+        filesHeadersListOnServer = filesHeadersListOnClient;
+
+
+    }
+
+    private boolean findHeaderInOldFileList(ChannelHandlerContext ctx, FileMessage newFileMessage) throws IOException {
+        for (FileMessage oldFileMessage : filesHeadersListOnServer) {
+            if (oldFileMessage.equals(newFileMessage)) {
+
+                if (oldFileMessage.getLastModifiedSeconds() < newFileMessage.getLastModifiedSeconds()) {
+                    ctx.writeAndFlush(new FileRequest(newFileMessage.getFilePath().toString()));
+                } else if (oldFileMessage.getLastModifiedSeconds() > newFileMessage.getLastModifiedSeconds()) {
+                    readAndSendFile(ctx, userStorage, newFileMessage.getFilePath());
+                }
+                filesHeadersListOnServer.remove(oldFileMessage);
+                return true;
+            }
+        }
+        return false;
+
+    }
+
+    private static void readAndSendFile(ChannelHandlerContext ctx, Path storage, Path file) throws IOException {
+        FileMessage fm = new FileMessage(storage, file, true);
+        ctx.writeAndFlush(fm);
     }
 }

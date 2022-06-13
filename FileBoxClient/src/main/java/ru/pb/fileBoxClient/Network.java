@@ -16,7 +16,7 @@ public class Network {
 
     public static void start() {
         try {
-            socket = new Socket("localhost", 8189);
+            socket = new Socket(PropertyReader.getInstance().getHost(), PropertyReader.getInstance().getPort());
             out = new ObjectEncoderOutputStream(socket.getOutputStream());
             in = new ObjectDecoderInputStream(socket.getInputStream(), maxObjectSize);
         } catch (IOException e) {
@@ -45,6 +45,7 @@ public class Network {
     public static boolean sendMsg(AbstractMessage msg) {
         try {
             out.writeObject(msg);
+            System.out.println("отправили на сервер: " + msg);
             return true;
         } catch (IOException e) {
             e.printStackTrace();
@@ -54,6 +55,7 @@ public class Network {
 
     public static AbstractMessage readObject() throws ClassNotFoundException, IOException {
         Object obj = in.readObject();
+        System.out.println("Входящие данные: " + obj);
         return (AbstractMessage) obj;
     }
 }

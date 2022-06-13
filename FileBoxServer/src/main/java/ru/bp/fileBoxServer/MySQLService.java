@@ -14,9 +14,9 @@ public class MySQLService {
 
 
     // JDBC URL, username and password of MySQL server
-    private static final String url = "jdbc:mysql://localhost:3306/filebox";
-    private static final String user = "root";
-    private static final String password = "123234";
+    private static String url;
+    private static String user;
+    private static String password;
 
     // JDBC variables for opening and managing connection
     private static Connection connection;
@@ -43,6 +43,10 @@ public class MySQLService {
 
 
     public static void start() throws MySQLConnectException {
+        url = PropertyReader.getInstance().getDbConnectionName();
+        user = PropertyReader.getInstance().getDbUser();
+        password = PropertyReader.getInstance().getDbPassword();
+
         try {
             connect();
         } catch (SQLException e) {
@@ -114,7 +118,7 @@ public class MySQLService {
                 psAddFileHeader = connection.prepareStatement(statementAddFileHeader);
 //                                  " INSERT INTO files (owner, path, last_modified_sec, status) values(?, ?, ?, ?);";
             psAddFileHeader.setString(1, owner);
-            psAddFileHeader.setString(2, fileHeader.getFilePath());
+            psAddFileHeader.setString(2, fileHeader.getFilePath().toString());
             psAddFileHeader.setLong(3, fileHeader.getLastModifiedSeconds());
             psAddFileHeader.setString(4, Status.WAITING_FOR_FILE.toString());
             psAddFileHeader.execute();
@@ -157,7 +161,7 @@ public class MySQLService {
                 Long lastModified = rs.getLong(2);
                 boolean status = Status.valueOf(rs.getString(3)) == Status.DELETED ? true : false;
                 //todo флаг удаленного
-                fileHeadersList.add(new FileMessage(lastModified, path, true));
+               // fileHeadersList.add(new FileMessage(lastModified, path, true));
             }
 
             return fileHeadersList;

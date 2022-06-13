@@ -10,4 +10,11 @@ public class FileRequest extends AbstractMessage {
     public FileRequest(String filename) {
         this.filename = filename;
     }
+
+    @Override
+    public String toString() {
+        return "FileRequest{" +
+                "filename='" + filename + '\'' +
+                '}';
+    }
 }
