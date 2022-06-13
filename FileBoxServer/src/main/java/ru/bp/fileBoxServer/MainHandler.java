@@ -46,15 +46,15 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws MySQLConnectException, IOException {
-        if (msg instanceof FileHeaderList) {
-            filesHeadersListOnClient = ((FileHeaderList) msg).getFileList();
-            updateFileList(ctx);
-
-        }
+//        if (msg instanceof FileHeaderList) {
+//            filesHeadersListOnClient = ((FileHeaderList) msg).getFileList();
+//            updateFileList(ctx);
+//
+//        }
         if (msg instanceof InfoMessage) {
             InfoMessage.MessageType action = ((InfoMessage) msg).getMessageType();
             switch (action) {
-                case ALL_FILES_SENT -> {    //уже не нужно
+                case ALL_FILES_SENT -> {
                     log.debug("Инфо: Получены все файлы от клиента. Ищем, что не хватает");
                     for (FileMessage fileMessageOnServ : filesHeadersListOnServer) {
                         boolean find = false;

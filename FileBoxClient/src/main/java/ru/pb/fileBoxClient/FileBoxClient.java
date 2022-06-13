@@ -57,12 +57,13 @@ public class FileBoxClient {
 
         fileHeadersList = FileUtil.getFileList(rootPath);
 
-        Network.sendMsg(new FileHeaderList(fileHeadersList));
-//        Iterator<FileMessage> it = fileHeadersList.iterator();
-//        while (it.hasNext()) {
-//            Network.sendMsg(it.next());
-//        }
-//        Network.sendMsg(new InfoMessage(InfoMessage.MessageType.ALL_FILES_SENT));
+//        Network.sendMsg(new FileHeaderList(fileHeadersList));
+
+        Iterator<FileMessage> it = fileHeadersList.iterator();
+        while (it.hasNext()) {
+            Network.sendMsg(it.next());
+        }
+        Network.sendMsg(new InfoMessage(InfoMessage.MessageType.ALL_FILES_SENT));
 
 
         while (true) {
